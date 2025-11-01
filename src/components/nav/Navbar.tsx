@@ -15,7 +15,9 @@ export function Navbar() {
                             alt="Charactermancer Logo"
                             className="h-12 w-12"
                         />
-                        <h1 className="text-xl font-bold">Charactermancer</h1>
+                        <h1 className="text-2xl tracking-wide font-bold">
+                            Charactermancer
+                        </h1>
                     </div>
 
                     {/* Center: Navigation Links (placeholder for future links) */}

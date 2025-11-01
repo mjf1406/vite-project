@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import { db, room } from "./lib/db";
 import { SignedOutView } from "./components/auth/SignedOutView";
+import { Navbar } from "./components/nav/Navbar";
 import { TodoHeader } from "./components/todos/TodoHeader";
 import { TodoContainer } from "./components/todos/TodoContainer";
 import { LoadingState } from "./components/todos/LoadingState";
@@ -11,6 +12,7 @@ import { ErrorState } from "./components/todos/ErrorState";
 function App() {
     return (
         <>
+            <Navbar />
             <db.SignedIn>
                 <Main />
             </db.SignedIn>
@@ -44,19 +46,21 @@ function Main() {
     const todos = data?.todos || [];
 
     return (
-        <div className="font-mono min-h-screen flex justify-center items-center flex-col space-y-4">
-            <TodoHeader
-                user={user}
-                numUsers={numUsers}
-            />
-            <TodoContainer
-                todos={todos}
-                userId={user?.id || null}
-                notice={notice}
-                setNotice={setNotice}
-            />
-            <div className="text-xs text-center">
-                Open another tab to see todos update in realtime!
+        <div className="font-mono min-h-screen">
+            <div className="flex justify-center items-center flex-col space-y-4 pt-8">
+                <TodoHeader
+                    user={user}
+                    numUsers={numUsers}
+                />
+                <TodoContainer
+                    todos={todos}
+                    userId={user?.id || null}
+                    notice={notice}
+                    setNotice={setNotice}
+                />
+                <div className="text-xs text-center">
+                    Open another tab to see todos update in realtime!
+                </div>
             </div>
         </div>
     );

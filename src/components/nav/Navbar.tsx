@@ -9,7 +9,12 @@ export function Navbar() {
             <div className="max-w-6xl mx-auto">
                 <div className="flex h-16 items-center justify-between px-4">
                     {/* Left: App Name */}
-                    <div className="flex items-center">
+                    <div className="flex items-center gap-2">
+                        <img
+                            src="/charactermancer-logo.svg"
+                            alt="Charactermancer Logo"
+                            className="h-12 w-12"
+                        />
                         <h1 className="text-xl font-bold">Charactermancer</h1>
                     </div>
 

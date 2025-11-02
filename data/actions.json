@@ -1,0 +1,80 @@
+{
+	"action": [
+		{
+			"name": "Don or Doff a Shield",
+			"source": "XPHB",
+			"page": 219,
+			"srd52": true,
+			"basicRules2024": true,
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"entries": [
+				"A {@item Shield|XPHB} can be donned or doffed as an action."
+			]
+		},
+		{
+			"name": "End Concentration",
+			"source": "XPHB",
+			"page": 363,
+			"srd52": true,
+			"basicRules2024": true,
+			"time": [
+				"Free"
+			],
+			"entries": [
+				"Some spells and other effects require Concentration to remain active, as specified in their descriptions. You can end Concentration at any time (no action required)."
+			]
+		},
+		{
+			"name": "Escape a Grapple",
+			"source": "XPHB",
+			"page": 367,
+			"srd52": true,
+			"basicRules2024": true,
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"entries": [
+				"A Grappled creature can use its action to make a Strength ({@skill Athletics|XPHB}) or Dexterity ({@skill Acrobatics|XPHB}) check against the grapple's escape DC, ending the {@variantrule Condition|XPHB|condition} on itself on a success. The {@variantrule Condition|XPHB|condition} also ends if the grappler has the {@condition Incapacitated|XPHB} condition or if the distance between the Grappled target and the grappler exceeds the grapple's range."
+			]
+		},
+		{
+			"name": "Improvising an Action",
+			"source": "XPHB",
+			"page": 15,
+			"basicRules2024": true,
+			"time": [
+				"Varies"
+			],
+			"entries": [
+				"Player characters and monsters can also do things not covered by other actions. Many class features and other abilities provide additional action options, and you can improvise other actions. When you describe an action not detailed elsewhere in the rules, the Dungeon Master tells you whether that action is possible and what kind of {@variantrule D20 Test|XPHB} you need to make, if any."
+			]
+		},
+		{
+			"name": "Two-Weapon Fighting",
+			"source": "XPHB",
+			"page": 213,
+			"srd52": true,
+			"basicRules2024": true,
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"entries": [
+				"When you take the {@action Attack|XPHB} action on your turn and attack with a Light weapon, you can make one extra attack as a {@variantrule Bonus Action|XPHB} later on the same turn. That extra attack must be made with a different Light weapon, and you don't add your ability modifier to the extra attack's damage unless that modifier is negative. For example, you can attack with a {@item Shortsword|XPHB} in one hand and a {@item Dagger|XPHB} in the other using the {@action Attack|XPHB} action and a {@variantrule Bonus Action|XPHB}, but you don't add your Strength or Dexterity modifier to the damage roll of the {@variantrule Bonus Action|XPHB} unless that modifier is negative."
+			],
+			"seeAlsoAction": [
+				"Attack|XPHB"
+			]
+		}
+	]
+}

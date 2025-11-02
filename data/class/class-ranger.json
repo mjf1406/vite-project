@@ -1,0 +1,1070 @@
+{
+	"_meta": {
+		"internalCopies": [
+			"subclass"
+		]
+	},
+	"class": [
+		{
+			"name": "Ranger",
+			"source": "XPHB",
+			"page": 118,
+			"srd52": true,
+			"basicRules2024": true,
+			"edition": "one",
+			"primaryAbility": [
+				{
+					"dex": true,
+					"wis": true
+				}
+			],
+			"hd": {
+				"number": 1,
+				"faces": 10
+			},
+			"proficiency": [
+				"str",
+				"dex"
+			],
+			"spellcastingAbility": "wis",
+			"casterProgression": "artificer",
+			"preparedSpellsProgression": [
+				2,
+				3,
+				4,
+				5,
+				6,
+				6,
+				7,
+				7,
+				9,
+				9,
+				10,
+				10,
+				11,
+				11,
+				12,
+				12,
+				14,
+				14,
+				15,
+				15
+			],
+			"preparedSpellsChange": "restLong",
+			"additionalSpells": [
+				{
+					"prepared": {
+						"1": [
+							"hunter's mark|xphb"
+						]
+					}
+				}
+			],
+			"featProgression": [
+				{
+					"name": "Fighting Style",
+					"category": [
+						"FS",
+						"FS:R"
+					],
+					"progression": {
+						"2": 1
+					}
+				},
+				{
+					"name": "Epic Boon",
+					"category": [
+						"EB"
+					],
+					"progression": {
+						"19": 1
+					}
+				}
+			],
+			"startingProficiencies": {
+				"armor": [
+					"light",
+					"medium",
+					"shield"
+				],
+				"weapons": [
+					"simple",
+					"martial"
+				],
+				"skills": [
+					{
+						"choose": {
+							"from": [
+								"animal handling",
+								"athletics",
+								"insight",
+								"investigation",
+								"nature",
+								"perception",
+								"stealth",
+								"survival"
+							],
+							"count": 3
+						}
+					}
+				]
+			},
+			"startingEquipment": {
+				"additionalFromBackground": true,
+				"defaultData": [
+					{
+						"A": [
+							{
+								"item": "studded leather armor|xphb"
+							},
+							{
+								"item": "scimitar|xphb"
+							},
+							{
+								"item": "shortsword|xphb"
+							},
+							{
+								"item": "longbow|xphb"
+							},
+							{
+								"item": "arrows (20)|xphb"
+							},
+							{
+								"item": "quiver|xphb"
+							},
+							{
+								"item": "sprig of mistletoe|xphb"
+							},
+							{
+								"item": "explorer's pack|xphb"
+							},
+							{
+								"value": 700
+							}
+						],
+						"B": [
+							{
+								"value": 15000
+							}
+						]
+					}
+				],
+				"entries": [
+					"{@i Choose A or B:} (A) {@item Studded Leather Armor|XPHB}, {@item Scimitar|XPHB}, {@item Shortsword|XPHB}, {@item Longbow|XPHB}, {@item Arrows (20)|XPHB|20 Arrows}, {@item Quiver|XPHB}, {@item Druidic Focus|XPHB} ({@item sprig of mistletoe|XPHB}), {@item Explorer's Pack|XPHB}, and 7 GP; or (B) 150 GP"
+				]
+			},
+			"multiclassing": {
+				"proficienciesGained": {
+					"weapons": [
+						"martial"
+					],
+					"armor": [
+						"light",
+						"medium",
+						"shield"
+					],
+					"skills": [
+						{
+							"choose": {
+								"from": [
+									"animal handling",
+									"athletics",
+									"insight",
+									"investigation",
+									"nature",
+									"perception",
+									"stealth",
+									"survival"
+								],
+								"count": 1
+							}
+						}
+					]
+				}
+			},
+			"classTableGroups": [
+				{
+					"colLabels": [
+						"Favored Enemy"
+					],
+					"rows": [
+						[
+							2
+						],
+						[
+							2
+						],
+						[
+							2
+						],
+						[
+							2
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							6
+						],
+						[
+							6
+						],
+						[
+							6
+						],
+						[
+							6
+						]
+					]
+				},
+				{
+					"colLabels": [
+						"{@filter Prepared Spells|spells|level=!0|class=Ranger}"
+					],
+					"rows": [
+						[
+							2
+						],
+						[
+							3
+						],
+						[
+							4
+						],
+						[
+							5
+						],
+						[
+							6
+						],
+						[
+							6
+						],
+						[
+							7
+						],
+						[
+							7
+						],
+						[
+							9
+						],
+						[
+							9
+						],
+						[
+							10
+						],
+						[
+							10
+						],
+						[
+							11
+						],
+						[
+							11
+						],
+						[
+							12
+						],
+						[
+							12
+						],
+						[
+							14
+						],
+						[
+							14
+						],
+						[
+							15
+						],
+						[
+							15
+						]
+					]
+				},
+				{
+					"title": "Spell Slots per Spell Level",
+					"colLabels": [
+						"{@filter 1st|spells|level=1|class=ranger}",
+						"{@filter 2nd|spells|level=2|class=ranger}",
+						"{@filter 3rd|spells|level=3|class=ranger}",
+						"{@filter 4th|spells|level=4|class=ranger}",
+						"{@filter 5th|spells|level=5|class=ranger}"
+					],
+					"rowsSpellProgression": [
+						[
+							2,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							2,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							3,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							3,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							2,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							2,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							2,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							2,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							1,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							1,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							2,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							2,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2
+						]
+					]
+				}
+			],
+			"classFeatures": [
+				"Spellcasting|Ranger|XPHB|1",
+				"Favored Enemy|Ranger|XPHB|1",
+				"Weapon Mastery|Ranger|XPHB|1",
+				"Deft Explorer|Ranger|XPHB|2",
+				"Fighting Style|Ranger|XPHB|2",
+				{
+					"classFeature": "Ranger Subclass|Ranger|XPHB|3",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Ranger|XPHB|4",
+				"Extra Attack|Ranger|XPHB|5",
+				"Roving|Ranger|XPHB|6",
+				{
+					"classFeature": "Subclass Feature|Ranger|XPHB|7",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Ranger|XPHB|8",
+				"Expertise|Ranger|XPHB|9",
+				"Tireless|Ranger|XPHB|10",
+				{
+					"classFeature": "Subclass Feature|Ranger|XPHB|11",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Ranger|XPHB|12",
+				"Relentless Hunter|Ranger|XPHB|13",
+				"Nature's Veil|Ranger|XPHB|14",
+				{
+					"classFeature": "Subclass Feature|Ranger|XPHB|15",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Ranger|XPHB|16",
+				"Precise Hunter|Ranger|XPHB|17",
+				"Feral Senses|Ranger|XPHB|18",
+				"Epic Boon|Ranger|XPHB|19",
+				"Foe Slayer|Ranger|XPHB|20"
+			],
+			"subclassTitle": "Ranger Subclass",
+			"hasFluff": true,
+			"hasFluffImages": true
+		}
+	],
+	"subclass": [
+		{
+			"name": "Hunter",
+			"shortName": "Hunter",
+			"source": "XPHB",
+			"className": "Ranger",
+			"classSource": "XPHB",
+			"page": 127,
+			"srd52": true,
+			"basicRules2024": true,
+			"edition": "one",
+			"subclassFeatures": [
+				"Hunter|Ranger|XPHB|Hunter|XPHB|3",
+				"Defensive Tactics|Ranger|XPHB|Hunter|XPHB|7",
+				"Superior Hunter's Prey|Ranger|XPHB|Hunter|XPHB|11",
+				"Superior Hunter's Defense|Ranger|XPHB|Hunter|XPHB|15"
+			],
+			"hasFluffImages": true
+		}
+	],
+	"classFeature": [
+		{
+			"name": "Favored Enemy",
+			"source": "XPHB",
+			"page": 120,
+			"srd52": true,
+			"basicRules2024": true,
+			"className": "Ranger",
+			"classSource": "XPHB",
+			"level": 1,
+			"entries": [
+				"You always have the {@spell Hunter's Mark|XPHB} spell prepared. You can cast it twice without expending a spell slot, and you regain all expended uses of this ability when you finish a {@variantrule Long Rest|XPHB}.",
+				"The number of times you can cast the spell without a spell slot increases when you reach certain Ranger levels, as shown in the Favored Enemy column of the Ranger Features table."
+			]
+		},
+		{
+			"name": "Spellcasting",
+			"source": "XPHB",
+			"page": 119,
+			"srd52": true,
+			"basicRules2024": true,
+			"className": "Ranger",
+			"classSource": "XPHB",
+			"level": 1,
+			"entries": [
+				"You have learned to channel the magical essence of nature to cast spells. See {@book chapter 7|XPHB|7} for the rules on spellcasting. The information below details how you use those rules with Ranger spells, which appear in the {@filter Ranger spell list|spells|class=Ranger} later in the class's description.",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Spell Slots",
+							"entries": [
+								"The Ranger Features table shows how many spell slots you have to cast your level 1+ spells. You regain all expended slots when you finish a {@variantrule Long Rest|XPHB}."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Prepared Spells of Level 1+",
+							"entries": [
+								"You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose two {@filter level 1 Ranger spells|spells|class=Ranger|level=1}. {@spell Cure Wounds|XPHB} and {@spell Ensnaring Strike|XPHB} are recommended.",
+								"The number of spells on your list increases as you gain Ranger levels, as shown in the Prepared Spells column of the Ranger Features table. Whenever that number increases, choose additional Ranger spells until the number of spells on your list matches the number in the Ranger Features table. The chosen spells must be of a level for which you have spell slots. For example, if you're a level 5 Ranger, your list of prepared spells can include six Ranger spells of level 1 or 2 in any combination.",
+								"If another Ranger feature gives you spells that you always have prepared, those spells don't count against the number of spells you can prepare with this feature, but those spells otherwise count as Ranger spells for you."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Changing Your Prepared Spells",
+							"entries": [
+								"Whenever you finish a {@variantrule Long Rest|XPHB}, you can replace one spell on your list with another Ranger spell for which you have spell slots."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Spellcasting Ability",
+							"entries": [
+								"Wisdom is your spellcasting ability for your Ranger spells."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Spellcasting Focus",
+							"entries": [
+								"You can use a {@item Druidic Focus|XPHB} as a {@variantrule Spellcasting Focus|XPHB} for your Ranger spells."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Weapon Mastery",
+			"source": "XPHB",
+			"page": 120,
+			"srd52": true,
+			"basicRules2024": true,
+			"className": "Ranger",
+			"classSource": "XPHB",
+			"level": 1,
+			"entries": [
+				"Your training with weapons allows you to use the {@variantrule weapon mastery properties|XPHB|mastery properties} of two kinds of {@filter weapons|items|type=simple weapon;martial weapon} of your choice with which you have proficiency, such as {@item Longbow|XPHB|Longbows} and {@item Shortsword|XPHB|Shortswords}.",
+				"Whenever you finish a {@variantrule Long Rest|XPHB}, you can change the kinds of weapons you chose. For example, you could switch to using the {@variantrule weapon mastery properties|XPHB|mastery properties} of {@item Scimitar|XPHB|Scimitars} and {@item Longsword|XPHB|Longswords}."
+			]
+		},
+		{
+			"name": "Deft Explorer",
+			"source": "XPHB",
+			"page": 120,
+			"srd52": true,
+			"basicRules2024": true,
+			"className": "Ranger",
+			"classSource": "XPHB",
+			"level": 2,
+			"entries": [
+				"Thanks to your travels, you gain the following benefits.",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Expertise",
+							"entries": [
+								"Choose one of your skill proficiencies with which you lack {@variantrule Expertise|XPHB}. You gain {@variantrule Expertise|XPHB} in that skill."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Languages",
+							"entries": [
+								"You know two languages of your choice from the language tables in {@book chapter 2|XPHB|2|Choose Languages}."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Fighting Style",
+			"source": "XPHB",
+			"page": 120,
+			"srd52": true,
+			"basicRules2024": true,
+			"className": "Ranger",
+			"classSource": "XPHB",
+			"level": 2,
+			"entries": [
+				"You gain a {@filter Fighting Style feat|feats|category=FS} of your choice. Instead of choosing one of those feats, you can choose the option below.",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "refFeat",
+							"feat": "Druidic Warrior|XPHB"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Ranger Subclass",
+			"source": "XPHB",
+			"page": 120,
+			"srd52": true,
+			"basicRules2024": true,
+			"className": "Ranger",
+			"classSource": "XPHB",
+			"level": 3,
+			"entries": [
+				"You gain a Ranger subclass of your choice. A subclass is a specialization that grants you features at certain Ranger levels. For the rest of your career, you gain each of your subclass's features that are of your Ranger level or lower."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "XPHB",
+			"page": 120,
+			"srd52": true,
+			"basicRules2024": true,
+			"className": "Ranger",
+			"classSource": "XPHB",
+			"level": 4,
+			"entries": [
+				"You gain the {@feat Ability Score Improvement|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify. You gain this feature again at Ranger levels 8, 12, and 16."
+			]
+		},
+		{
+			"name": "Extra Attack",
+			"source": "XPHB",
+			"page": 120,
+			"srd52": true,
+			"basicRules2024": true,
+			"className": "Ranger",
+			"classSource": "XPHB",
+			"level": 5,
+			"entries": [
+				"You can attack twice instead of once whenever you take the {@action Attack|XPHB} action on your turn."
+			]
+		},
+		{
+			"name": "Roving",
+			"source": "XPHB",
+			"page": 121,
+			"srd52": true,
+			"basicRules2024": true,
+			"className": "Ranger",
+			"classSource": "XPHB",
+			"level": 6,
+			"entries": [
+				"Your {@variantrule Speed|XPHB} increases by 10 feet while you aren't wearing Heavy armor. You also have a {@variantrule Climb Speed|XPHB} and a {@variantrule Swim Speed|XPHB} equal to your {@variantrule Speed|XPHB}."
+			]
+		},
+		{
+			"name": "Subclass Feature",
+			"source": "XPHB",
+			"page": 121,
+			"srd52": true,
+			"basicRules2024": true,
+			"className": "Ranger",
+			"classSource": "XPHB",
+			"level": 7,
+			"entries": [
+				"You gain a feature from your Ranger Subclass."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "XPHB",
+			"page": 121,
+			"srd52": true,
+			"basicRules2024": true,
+			"className": "Ranger",
+			"classSource": "XPHB",
+			"level": 8,
+			"entries": [
+				"You gain the {@feat Ability Score Improvement|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify."
+			]
+		},
+		{
+			"name": "Expertise",
+			"source": "XPHB",
+			"page": 121,
+			"srd52": true,
+			"basicRules2024": true,
+			"className": "Ranger",
+			"classSource": "XPHB",
+			"level": 9,
+			"entries": [
+				"Choose two of your skill proficiencies with which you lack {@variantrule Expertise|XPHB}. You gain {@variantrule Expertise|XPHB} in those skills."
+			]
+		},
+		{
+			"name": "Tireless",
+			"source": "XPHB",
+			"page": 121,
+			"srd52": true,
+			"basicRules2024": true,
+			"className": "Ranger",
+			"classSource": "XPHB",
+			"level": 10,
+			"entries": [
+				"Primal forces now help fuel you on your journeys, granting you the following benefits.",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Temporary Hit Points",
+							"entries": [
+								"As a {@action Magic|XPHB} action, you can give yourself a number of {@variantrule Temporary Hit Points|XPHB} equal to {@dice 1d8} plus your Wisdom modifier (minimum of 1). You can use this action a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Decrease Exhaustion",
+							"entries": [
+								"Whenever you finish a {@variantrule Short Rest|XPHB}, your {@condition Exhaustion|XPHB} level, if any, decreases by 1."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Subclass Feature",
+			"source": "XPHB",
+			"page": 121,
+			"srd52": true,
+			"basicRules2024": true,
+			"className": "Ranger",
+			"classSource": "XPHB",
+			"level": 11,
+			"entries": [
+				"You gain a feature from your Ranger Subclass."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "XPHB",
+			"page": 121,
+			"srd52": true,
+			"basicRules2024": true,
+			"className": "Ranger",
+			"classSource": "XPHB",
+			"level": 12,
+			"entries": [
+				"You gain the {@feat Ability Score Improvement|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify."
+			]
+		},
+		{
+			"name": "Relentless Hunter",
+			"source": "XPHB",
+			"page": 121,
+			"srd52": true,
+			"basicRules2024": true,
+			"className": "Ranger",
+			"classSource": "XPHB",
+			"level": 13,
+			"entries": [
+				"Taking damage can't break your {@status Concentration|XPHB} on Hunter's Mark."
+			]
+		},
+		{
+			"name": "Nature's Veil",
+			"source": "XPHB",
+			"page": 121,
+			"srd52": true,
+			"basicRules2024": true,
+			"className": "Ranger",
+			"classSource": "XPHB",
+			"level": 14,
+			"entries": [
+				"You invoke spirits of nature to magically hide yourself. As a {@variantrule Bonus Action|XPHB}, you can give yourself the {@condition Invisible|XPHB} condition until the end of your next turn.",
+				"You can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+			]
+		},
+		{
+			"name": "Subclass Feature",
+			"source": "XPHB",
+			"page": 121,
+			"srd52": true,
+			"basicRules2024": true,
+			"className": "Ranger",
+			"classSource": "XPHB",
+			"level": 15,
+			"entries": [
+				"You gain a feature from your Ranger Subclass."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "XPHB",
+			"page": 121,
+			"srd52": true,
+			"basicRules2024": true,
+			"className": "Ranger",
+			"classSource": "XPHB",
+			"level": 16,
+			"entries": [
+				"You gain the {@feat Ability Score Improvement|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify."
+			]
+		},
+		{
+			"name": "Precise Hunter",
+			"source": "XPHB",
+			"page": 121,
+			"srd52": true,
+			"basicRules2024": true,
+			"className": "Ranger",
+			"classSource": "XPHB",
+			"level": 17,
+			"entries": [
+				"You have {@variantrule Advantage|XPHB} on attack rolls against the creature currently marked by your Hunter's Mark."
+			]
+		},
+		{
+			"name": "Feral Senses",
+			"source": "XPHB",
+			"page": 121,
+			"srd52": true,
+			"basicRules2024": true,
+			"className": "Ranger",
+			"classSource": "XPHB",
+			"level": 18,
+			"entries": [
+				"Your connection to the forces of nature grants you {@sense Blindsight|XPHB} with a range of 30 feet."
+			]
+		},
+		{
+			"name": "Epic Boon",
+			"source": "XPHB",
+			"page": 121,
+			"srd52": true,
+			"basicRules2024": true,
+			"className": "Ranger",
+			"classSource": "XPHB",
+			"level": 19,
+			"entries": [
+				"You gain an {@filter Epic Boon feat|feats|category=EB} or another {@5etools feat|feats.html} of your choice for which you qualify. {@feat Boon of Dimensional Travel|XPHB} is recommended."
+			]
+		},
+		{
+			"name": "Foe Slayer",
+			"source": "XPHB",
+			"page": 121,
+			"srd52": true,
+			"basicRules2024": true,
+			"className": "Ranger",
+			"classSource": "XPHB",
+			"level": 20,
+			"entries": [
+				"The damage die of your Hunter's Mark is a {@damage d10} rather than a {@damage d6}."
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Hunter",
+			"source": "XPHB",
+			"page": 127,
+			"srd52": true,
+			"basicRules2024": true,
+			"className": "Ranger",
+			"classSource": "XPHB",
+			"subclassShortName": "Hunter",
+			"subclassSource": "XPHB",
+			"level": 3,
+			"entries": [
+				"{@i Protect Nature and People from Destruction}",
+				"You stalk prey in the wilds and elsewhere, using your abilities as a Hunter to protect nature and people everywhere from forces that would destroy them.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Hunter's Prey|Ranger|XPHB|Hunter|XPHB|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Hunter's Lore|Ranger|XPHB|Hunter|XPHB|3"
+				}
+			]
+		},
+		{
+			"name": "Hunter's Lore",
+			"source": "XPHB",
+			"page": 127,
+			"srd52": true,
+			"basicRules2024": true,
+			"className": "Ranger",
+			"classSource": "XPHB",
+			"subclassShortName": "Hunter",
+			"subclassSource": "XPHB",
+			"level": 3,
+			"entries": [
+				"You can call on the forces of nature to reveal certain strengths and weaknesses of your prey. While a creature is marked by your Hunter's Mark, you know whether that creature has any Immunities, Resistances, or Vulnerabilities, and if the creature has any, you know what they are."
+			]
+		},
+		{
+			"name": "Hunter's Prey",
+			"source": "XPHB",
+			"page": 127,
+			"srd52": true,
+			"basicRules2024": true,
+			"className": "Ranger",
+			"classSource": "XPHB",
+			"subclassShortName": "Hunter",
+			"subclassSource": "XPHB",
+			"level": 3,
+			"entries": [
+				"You gain one of the following feature options of your choice. Whenever you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}, you can replace the chosen option with the other one.",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Colossus Slayer",
+							"entries": [
+								"Your tenacity can wear down even the most resilient foes. When you hit a creature with a weapon, the weapon deals an extra {@damage 1d8} damage to the target if it's missing any of its {@variantrule Hit Points|XPHB}. You can deal this extra damage only once per turn."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Horde Breaker",
+							"entries": [
+								"Once on each of your turns when you make an attack with a weapon, you can make another attack with the same weapon against a different creature that is within 5 feet of the original target, that is within the weapon's range, and that you haven't attacked this turn."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Defensive Tactics",
+			"source": "XPHB",
+			"page": 127,
+			"srd52": true,
+			"basicRules2024": true,
+			"className": "Ranger",
+			"classSource": "XPHB",
+			"subclassShortName": "Hunter",
+			"subclassSource": "XPHB",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"You gain one of the following feature options of your choice. Whenever you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}, you can replace the chosen option with the other one.",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Escape the Horde",
+							"entries": [
+								"{@action Opportunity Attack|XPHB|Opportunity Attacks} have {@variantrule Disadvantage|XPHB} against you."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Multiattack Defense",
+							"entries": [
+								"When a creature hits you with an attack roll, that creature has {@variantrule Disadvantage|XPHB} on all other attack rolls against you this turn."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Superior Hunter's Prey",
+			"source": "XPHB",
+			"page": 127,
+			"srd52": true,
+			"basicRules2024": true,
+			"className": "Ranger",
+			"classSource": "XPHB",
+			"subclassShortName": "Hunter",
+			"subclassSource": "XPHB",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"Once per turn when you deal damage to a creature marked by your Hunter's Mark, you can also deal that spell's extra damage to a different creature that you can see within 30 feet of the first creature."
+			]
+		},
+		{
+			"name": "Superior Hunter's Defense",
+			"source": "XPHB",
+			"page": 127,
+			"srd52": true,
+			"basicRules2024": true,
+			"className": "Ranger",
+			"classSource": "XPHB",
+			"subclassShortName": "Hunter",
+			"subclassSource": "XPHB",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"When you take damage, you can take a {@variantrule Reaction|XPHB} to give yourself {@variantrule Resistance|XPHB} to that damage and any other damage of the same type until the end of the current turn."
+			]
+		}
+	]
+}

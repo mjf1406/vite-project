@@ -36,6 +36,9 @@ const rules = {
             $default: "false",
         },
     },
+    // -----------------------------
+    //      Admin Tables
+    // -----------------------------
     $files: {
         allow: {
             view: "isAuthenticated",
@@ -63,25 +66,23 @@ const rules = {
         },
         bind: adminBind,
     },
+    // ----------------------
+    //      Data Tables
+    // ----------------------
+    _5e_classes: {
+        allow: {
+            view: "isAuthenticated",
+            create: "false",
+            update: "false",
+            delete: "false",
+        },
+        bind: adminBind,
+    },
+
+    // ----------------------
+    //      User Tables
+    // ----------------------
     todos: {
-        allow: {
-            view: "isOwner || isGuestOwner",
-            create: "isAuthenticated && (size(data.ref('owner.ownerTodos.id')) < 6 || isPremium)",
-            update: "isOwner || isGuestOwner",
-            delete: "isOwner || isGuestOwner",
-        },
-        bind: dataBind,
-    },
-    didjyahs: {
-        allow: {
-            view: "isOwner || isGuestOwner",
-            create: "isAuthenticated && (size(data.ref('owner.ownerTodos.id')) < 6 || isPremium)",
-            update: "isOwner || isGuestOwner",
-            delete: "isOwner || isGuestOwner",
-        },
-        bind: dataBind,
-    },
-    didjyahRecords: {
         allow: {
             view: "isOwner || isGuestOwner",
             create: "isAuthenticated && (size(data.ref('owner.ownerTodos.id')) < 6 || isPremium)",

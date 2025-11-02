@@ -1,0 +1,349 @@
+{
+	"_meta": {
+		"internalCopies": [
+			"deck"
+		]
+	},
+	"deck": [
+		{
+			"name": "Deck of Many Things",
+			"source": "XDMG",
+			"page": 250,
+			"srd52": "Mysterious Deck",
+			"basicRules2024": true,
+			"cards": [
+				{
+					"uid": "Balance|Deck of Many Things|XDMG",
+					"replacement": true
+				},
+				{
+					"uid": "Comet|Deck of Many Things|XDMG",
+					"replacement": true
+				},
+				{
+					"uid": "Donjon|Deck of Many Things|XDMG",
+					"replacement": true
+				},
+				{
+					"uid": "Euryale|Deck of Many Things|XDMG",
+					"replacement": true
+				},
+				{
+					"uid": "Fates|Deck of Many Things|XDMG",
+					"replacement": true
+				},
+				{
+					"uid": "Flames|Deck of Many Things|XDMG",
+					"replacement": true
+				},
+				"Fool|Deck of Many Things|XDMG",
+				{
+					"uid": "Gem|Deck of Many Things|XDMG",
+					"replacement": true
+				},
+				"Jester|Deck of Many Things|XDMG",
+				{
+					"uid": "Key|Deck of Many Things|XDMG",
+					"replacement": true
+				},
+				{
+					"uid": "Knight|Deck of Many Things|XDMG",
+					"replacement": true
+				},
+				{
+					"uid": "Moon|Deck of Many Things|XDMG",
+					"replacement": true
+				},
+				{
+					"uid": "Puzzle|Deck of Many Things|XDMG",
+					"replacement": true
+				},
+				{
+					"uid": "Rogue|Deck of Many Things|XDMG",
+					"replacement": true
+				},
+				{
+					"uid": "Ruin|Deck of Many Things|XDMG",
+					"replacement": true
+				},
+				{
+					"uid": "Sage|Deck of Many Things|XDMG",
+					"replacement": true
+				},
+				{
+					"uid": "Skull|Deck of Many Things|XDMG",
+					"replacement": true
+				},
+				{
+					"uid": "Star|Deck of Many Things|XDMG",
+					"replacement": true
+				},
+				{
+					"uid": "Sun|Deck of Many Things|XDMG",
+					"replacement": true
+				},
+				{
+					"uid": "Talons|Deck of Many Things|XDMG",
+					"replacement": true
+				}
+			],
+			"back": {
+				"type": "image",
+				"href": {
+					"type": "internal",
+					"path": "decks/BMT/Deck of Many Things/00-back.webp"
+				},
+				"credit": "Hinchel Or",
+				"width": 656,
+				"height": 1123
+			},
+			"entries": [
+				"Usually found in a box or pouch, this deck contains a number of cards made of ivory or vellum. Most (75 percent) of these decks have thirteen cards, but some have twenty-two. Use the appropriate column of the Deck of Many Things table when randomly determining cards drawn from the deck.",
+				"Before you draw a card, you must declare how many cards you intend to draw and then draw them randomly. Any cards drawn in excess of this number have no effect. Otherwise, as soon as you draw a card from the deck, its magic takes effect. You must draw each card no more than 1 hour after the previous draw. If you fail to draw the chosen number, the remaining number of cards fly from the deck on their own and take effect all at once.",
+				"Once a card is drawn, it disappears. Unless the card is the Fool or Jester, the card reappears in the deck, making it possible to draw the same card twice. (Once the Fool or Jester has left the deck, reroll on the table if that card comes up again.)",
+				{
+					"type": "table",
+					"caption": "Deck of Many Things",
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"colLabels": [
+						"1d100",
+						"Card"
+					],
+					"rows": [
+						[
+							"01-05",
+							"Balance"
+						],
+						[
+							"06-10",
+							"Comet"
+						],
+						[
+							"11-14",
+							"Donjon"
+						],
+						[
+							"15-18",
+							"Euryale"
+						],
+						[
+							"19-23",
+							"Fates"
+						],
+						[
+							"24-27",
+							"Flames"
+						],
+						[
+							"28-31",
+							"Fool"
+						],
+						[
+							"32-36",
+							"Gem"
+						],
+						[
+							"37-41",
+							"Jester"
+						],
+						[
+							"42-46",
+							"Key"
+						],
+						[
+							"47-51",
+							"Knight"
+						],
+						[
+							"52-56",
+							"Moon"
+						],
+						[
+							"57-60",
+							"Puzzle"
+						],
+						[
+							"61-64",
+							"Rogue"
+						],
+						[
+							"65-68",
+							"Ruin"
+						],
+						[
+							"69-73",
+							"Sage"
+						],
+						[
+							"74-77",
+							"Skull"
+						],
+						[
+							"78-82",
+							"Star"
+						],
+						[
+							"83-87",
+							"Sun"
+						],
+						[
+							"88-91",
+							"Talons"
+						],
+						[
+							"92-96",
+							"Throne"
+						],
+						[
+							"97-00",
+							"Void"
+						]
+					]
+				}
+			],
+			"hasCardArt": true
+		},
+		{
+			"name": "Deck of Many Things (13 Cards)",
+			"source": "XDMG",
+			"_copy": {
+				"name": "Deck of Many Things",
+				"source": "XDMG",
+				"_mod": {
+					"entries": {
+						"mode": "replaceArr",
+						"replace": {
+							"index": 3
+						},
+						"items": {
+							"type": "table",
+							"caption": "Deck of Many Things",
+							"colStyles": [
+								"col-2 text-center",
+								"col-10"
+							],
+							"colLabels": [
+								"1d100",
+								"Card"
+							],
+							"rows": [
+								[
+									"01-08",
+									"Balance"
+								],
+								[
+									"09-16",
+									"Comet"
+								],
+								[
+									"17-24",
+									"Donjon"
+								],
+								[
+									"25-32",
+									"Euryale"
+								],
+								[
+									"33-40",
+									"Fates"
+								],
+								[
+									"41-48",
+									"Flames"
+								],
+								[
+									"49-56",
+									"Fool"
+								],
+								[
+									"57-64",
+									"Gem"
+								],
+								[
+									"65-72",
+									"Jester"
+								],
+								[
+									"73-80",
+									"Key"
+								],
+								[
+									"81-88",
+									"Knight"
+								],
+								[
+									"89-96",
+									"Moon"
+								],
+								[
+									"97-00",
+									"Puzzle"
+								]
+							]
+						}
+					}
+				},
+				"_preserve": {
+					"page": true,
+					"srd52": true,
+					"basicRules2024": true
+				}
+			},
+			"cards": [
+				{
+					"uid": "Euryale|Deck of Many Things|XDMG",
+					"replacement": true
+				},
+				{
+					"uid": "Flames|Deck of Many Things|XDMG",
+					"replacement": true
+				},
+				"Jester|Deck of Many Things|XDMG",
+				{
+					"uid": "Key|Deck of Many Things|XDMG",
+					"replacement": true
+				},
+				{
+					"uid": "Knight|Deck of Many Things|XDMG",
+					"replacement": true
+				},
+				{
+					"uid": "Moon|Deck of Many Things|XDMG",
+					"replacement": true
+				},
+				{
+					"uid": "Rogue|Deck of Many Things|XDMG",
+					"replacement": true
+				},
+				{
+					"uid": "Ruin|Deck of Many Things|XDMG",
+					"replacement": true
+				},
+				{
+					"uid": "Skull|Deck of Many Things|XDMG",
+					"replacement": true
+				},
+				{
+					"uid": "Star|Deck of Many Things|XDMG",
+					"replacement": true
+				},
+				{
+					"uid": "Sun|Deck of Many Things|XDMG",
+					"replacement": true
+				},
+				{
+					"uid": "Throne|Deck of Many Things|XDMG",
+					"replacement": true
+				},
+				{
+					"uid": "Void|Deck of Many Things|XDMG",
+					"replacement": true
+				}
+			]
+		}
+	],
+	"card": []
+}

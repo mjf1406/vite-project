@@ -1,0 +1,4740 @@
+{
+	"table": [
+		{
+			"caption": "Ability Descriptions",
+			"srd52": true,
+			"basicRules2024": true,
+			"colLabels": [
+				"Ability",
+				"Score Measures..."
+			],
+			"colStyles": [
+				"col-4",
+				"col-8"
+			],
+			"rows": [
+				[
+					"Strength",
+					"Physical might"
+				],
+				[
+					"Dexterity",
+					"Agility, reflexes, and balance"
+				],
+				[
+					"Constitution",
+					"Health and stamina"
+				],
+				[
+					"Intelligence",
+					"Reasoning and memory"
+				],
+				[
+					"Wisdom",
+					"Perceptiveness and mental fortitude"
+				],
+				[
+					"Charisma",
+					"Confidence, poise, and charm"
+				]
+			],
+			"name": "The Six Abilities; Ability Descriptions",
+			"page": 10,
+			"source": "XPHB",
+			"chapter": {
+				"name": "Playing the Game",
+				"ordinal": {
+					"type": "chapter",
+					"identifier": 1
+				},
+				"index": 1
+			}
+		},
+		{
+			"caption": "Ability Scores",
+			"srd52": true,
+			"basicRules2024": true,
+			"colLabels": [
+				"Score",
+				"Meaning"
+			],
+			"colStyles": [
+				"col-2 text-center",
+				"col-10"
+			],
+			"rows": [
+				[
+					"1",
+					"This is the lowest a score can normally go. If an effect reduces a score to 0, that effect explains what happens."
+				],
+				[
+					"2–9",
+					"This represents a weak capability."
+				],
+				[
+					"10–11",
+					"This represents the human average."
+				],
+				[
+					"12–19",
+					"This represents a strong capability."
+				],
+				[
+					"20",
+					"This is the highest an adventurer's score can go unless a feature says otherwise."
+				],
+				[
+					"21–29",
+					"This represents an extraordinary capability."
+				],
+				[
+					"30",
+					"This is the highest a score can go."
+				]
+			],
+			"name": "Ability Scores",
+			"page": 10,
+			"source": "XPHB",
+			"chapter": {
+				"name": "Playing the Game",
+				"ordinal": {
+					"type": "chapter",
+					"identifier": 1
+				},
+				"index": 1
+			}
+		},
+		{
+			"caption": "Ability Modifiers",
+			"srd52": true,
+			"basicRules2024": true,
+			"colLabels": [
+				"Score",
+				"Modifier"
+			],
+			"colStyles": [
+				"col-6 text-center",
+				"col-6 text-center"
+			],
+			"rows": [
+				[
+					"1",
+					"−5"
+				],
+				[
+					"2–3",
+					"−4"
+				],
+				[
+					"4–5",
+					"−3"
+				],
+				[
+					"6–7",
+					"−2"
+				],
+				[
+					"8–9",
+					"−1"
+				],
+				[
+					"10–11",
+					"+0"
+				],
+				[
+					"12–13",
+					"+1"
+				],
+				[
+					"14–15",
+					"+2"
+				],
+				[
+					"16–17",
+					"+3"
+				],
+				[
+					"18–19",
+					"+4"
+				],
+				[
+					"20–21",
+					"+5"
+				],
+				[
+					"22–23",
+					"+6"
+				],
+				[
+					"24–25",
+					"+7"
+				],
+				[
+					"26–27",
+					"+8"
+				],
+				[
+					"28–29",
+					"+9"
+				],
+				[
+					"30",
+					"+10"
+				]
+			],
+			"name": "Ability Modifiers",
+			"page": 10,
+			"source": "XPHB",
+			"chapter": {
+				"name": "Playing the Game",
+				"ordinal": {
+					"type": "chapter",
+					"identifier": 1
+				},
+				"index": 1
+			}
+		},
+		{
+			"caption": "Ability Check Examples",
+			"srd52": true,
+			"basicRules2024": true,
+			"colLabels": [
+				"Ability",
+				"Make a Check To..."
+			],
+			"colStyles": [
+				"col-4",
+				"col-8"
+			],
+			"rows": [
+				[
+					"Strength",
+					"Lift, push, pull, or break something"
+				],
+				[
+					"Dexterity",
+					"Move nimbly, quickly, or quietly"
+				],
+				[
+					"Constitution",
+					"Push your body beyond normal limits"
+				],
+				[
+					"Intelligence",
+					"Reason or remember"
+				],
+				[
+					"Wisdom",
+					"Notice things in the environment or in creatures' behavior"
+				],
+				[
+					"Charisma",
+					"Influence, entertain, or deceive"
+				]
+			],
+			"name": "Ability Modifier; Ability Check Examples",
+			"page": 10,
+			"source": "XPHB",
+			"chapter": {
+				"name": "Playing the Game",
+				"ordinal": {
+					"type": "chapter",
+					"identifier": 1
+				},
+				"index": 1
+			}
+		},
+		{
+			"caption": "Typical Difficulty Classes",
+			"srd52": true,
+			"basicRules2024": true,
+			"colLabels": [
+				"Task Difficulty",
+				"DC"
+			],
+			"colStyles": [
+				"col-10",
+				"col-2 text-center"
+			],
+			"rows": [
+				[
+					"Very easy",
+					"5"
+				],
+				[
+					"Easy",
+					"10"
+				],
+				[
+					"Medium",
+					"15"
+				],
+				[
+					"Hard",
+					"20"
+				],
+				[
+					"Very hard",
+					"25"
+				],
+				[
+					"Nearly impossible",
+					"30"
+				]
+			],
+			"name": "Typical Difficulty Classes",
+			"page": 11,
+			"source": "XPHB",
+			"chapter": {
+				"name": "Playing the Game",
+				"ordinal": {
+					"type": "chapter",
+					"identifier": 1
+				},
+				"index": 1
+			}
+		},
+		{
+			"caption": "Saving Throw Examples",
+			"srd52": true,
+			"basicRules2024": true,
+			"colLabels": [
+				"Ability",
+				"Make a Save To..."
+			],
+			"colStyles": [
+				"col-4",
+				"col-8"
+			],
+			"rows": [
+				[
+					"Strength",
+					"Physically resist direct force"
+				],
+				[
+					"Dexterity",
+					"Dodge out of harm's way"
+				],
+				[
+					"Constitution",
+					"Endure a toxic hazard"
+				],
+				[
+					"Intelligence",
+					"Recognize an illusion as fake"
+				],
+				[
+					"Wisdom",
+					"Resist a mental assault"
+				],
+				[
+					"Charisma",
+					"Assert your identity"
+				]
+			],
+			"name": "Ability Modifier; Saving Throw Examples",
+			"page": 11,
+			"source": "XPHB",
+			"chapter": {
+				"name": "Playing the Game",
+				"ordinal": {
+					"type": "chapter",
+					"identifier": 1
+				},
+				"index": 1
+			}
+		},
+		{
+			"caption": "Attack Roll Abilities",
+			"srd52": true,
+			"basicRules2024": true,
+			"colLabels": [
+				"Ability",
+				"Attack Type"
+			],
+			"colStyles": [
+				"col-2",
+				"col-10"
+			],
+			"rows": [
+				[
+					"Strength",
+					"Melee attack with a weapon or an {@variantrule Unarmed Strike|XPHB}"
+				],
+				[
+					"Dexterity",
+					"Ranged attack with a weapon"
+				],
+				[
+					"Varies",
+					"Spell attack (the ability used is determined by the spellcaster's spellcasting feature, as explained in {@book chapter 7|XPHB|7})"
+				]
+			],
+			"name": "Ability Modifier; Attack Roll Abilities",
+			"page": 12,
+			"source": "XPHB",
+			"chapter": {
+				"name": "Playing the Game",
+				"ordinal": {
+					"type": "chapter",
+					"identifier": 1
+				},
+				"index": 1
+			}
+		},
+		{
+			"caption": "Proficiency Bonus",
+			"srd52": true,
+			"basicRules2024": true,
+			"colLabels": [
+				"Level or CR",
+				"Bonus"
+			],
+			"colStyles": [
+				"col-5 text-center",
+				"col-5 text-center"
+			],
+			"rows": [
+				[
+					"Up to 4",
+					"+2"
+				],
+				[
+					"5–8",
+					"+3"
+				],
+				[
+					"9–12",
+					"+4"
+				],
+				[
+					"13–16",
+					"+5"
+				],
+				[
+					"17–20",
+					"+6"
+				],
+				[
+					"21–24",
+					"+7"
+				],
+				[
+					"25–28",
+					"+8"
+				],
+				[
+					"29–30",
+					"+9"
+				]
+			],
+			"name": "Proficiency Bonus",
+			"page": 13,
+			"source": "XPHB",
+			"chapter": {
+				"name": "Playing the Game",
+				"ordinal": {
+					"type": "chapter",
+					"identifier": 1
+				},
+				"index": 1
+			}
+		},
+		{
+			"caption": "Skills",
+			"srd52": true,
+			"basicRules2024": true,
+			"colLabels": [
+				"Skill",
+				"Ability",
+				"Example Uses"
+			],
+			"colStyles": [
+				"col-2",
+				"col-2",
+				"col-8"
+			],
+			"rows": [
+				[
+					"{@skill Acrobatics|XPHB}",
+					"Dexterity",
+					"Stay on your feet in a tricky situation, or perform an acrobatic stunt."
+				],
+				[
+					"{@skill Animal Handling|XPHB}",
+					"Wisdom",
+					"Calm or train an animal, or get an animal to behave in a certain way."
+				],
+				[
+					"{@skill Arcana|XPHB}",
+					"Intelligence",
+					"Recall lore about spells, magic items, and the planes of existence."
+				],
+				[
+					"{@skill Athletics|XPHB}",
+					"Strength",
+					"Jump farther than normal, stay afloat in rough water, or break something."
+				],
+				[
+					"{@skill Deception|XPHB}",
+					"Charisma",
+					"Tell a convincing lie, or wear a disguise convincingly."
+				],
+				[
+					"{@skill History|XPHB}",
+					"Intelligence",
+					"Recall lore about historical events, people, nations, and cultures."
+				],
+				[
+					"{@skill Insight|XPHB}",
+					"Wisdom",
+					"Discern a person's mood and intentions."
+				],
+				[
+					"{@skill Intimidation|XPHB}",
+					"Charisma",
+					"Awe or threaten someone into doing what you want."
+				],
+				[
+					"{@skill Investigation|XPHB}",
+					"Intelligence",
+					"Find obscure information in books, or deduce how something works."
+				],
+				[
+					"{@skill Medicine|XPHB}",
+					"Wisdom",
+					"Diagnose an illness, or determine what killed the recently slain."
+				],
+				[
+					"{@skill Nature|XPHB}",
+					"Intelligence",
+					"Recall lore about terrain, plants, animals, and weather."
+				],
+				[
+					"{@skill Perception|XPHB}",
+					"Wisdom",
+					"Using a combination of senses, notice something that's easy to miss."
+				],
+				[
+					"{@skill Performance|XPHB}",
+					"Charisma",
+					"Act, tell a story, perform music, or dance."
+				],
+				[
+					"{@skill Persuasion|XPHB}",
+					"Charisma",
+					"Honestly and graciously convince someone of something."
+				],
+				[
+					"{@skill Religion|XPHB}",
+					"Intelligence",
+					"Recall lore about gods, religious rituals, and holy symbols."
+				],
+				[
+					"{@skill Sleight of Hand|XPHB}",
+					"Dexterity",
+					"Pick a pocket, conceal a handheld object, or perform legerdemain."
+				],
+				[
+					"{@skill Stealth|XPHB}",
+					"Dexterity",
+					"Escape notice by moving quietly and hiding behind things."
+				],
+				[
+					"{@skill Survival|XPHB}",
+					"Wisdom",
+					"Follow tracks, forage, find a trail, or avoid natural hazards."
+				]
+			],
+			"name": "Skill List; Skills",
+			"page": 14,
+			"source": "XPHB",
+			"chapter": {
+				"name": "Playing the Game",
+				"ordinal": {
+					"type": "chapter",
+					"identifier": 1
+				},
+				"index": 1
+			}
+		},
+		{
+			"caption": "Actions",
+			"srd52": true,
+			"basicRules2024": true,
+			"colLabels": [
+				"Action",
+				"Summary"
+			],
+			"colStyles": [
+				"col-2",
+				"col-10"
+			],
+			"rows": [
+				[
+					"{@action Attack|XPHB}",
+					"Attack with a weapon or an {@variantrule Unarmed Strike|XPHB}."
+				],
+				[
+					"{@action Dash|XPHB}",
+					"For the rest of the turn, give yourself extra movement equal to your {@variantrule Speed|XPHB}."
+				],
+				[
+					"{@action Disengage|XPHB}",
+					"Your movement doesn't provoke {@action Opportunity Attack|XPHB} for the rest of the turn."
+				],
+				[
+					"{@action Dodge|XPHB}",
+					"Until the start of your next turn, attack rolls against you have {@variantrule Disadvantage|XPHB}, and you make Dexterity saving throws with {@variantrule Advantage|XPHB}. You lose this benefit if you have the {@condition Incapacitated|XPHB} condition or if your Speed is 0."
+				],
+				[
+					"{@action Help|XPHB}",
+					"Help another creature's ability check or attack roll, or administer first aid."
+				],
+				[
+					"{@action Hide|XPHB}",
+					"Make a Dexterity ({@skill Stealth|XPHB}) check."
+				],
+				[
+					"{@action Influence|XPHB}",
+					"Make a Charisma ({@skill Deception|XPHB}, {@skill Intimidation|XPHB}, {@skill Performance|XPHB}, or {@skill Persuasion|XPHB}) or Wisdom ({@skill Animal Handling|XPHB}) check to alter a creature's attitude."
+				],
+				[
+					"{@action Magic|XPHB}",
+					"Cast a spell, use a magic item, or use a magical feature."
+				],
+				[
+					"{@action Ready|XPHB}",
+					"Prepare to take an action in response to a trigger you define."
+				],
+				[
+					"{@action Search|XPHB}",
+					"Make a Wisdom ({@skill Insight|XPHB}, {@skill Medicine|XPHB}, {@skill Perception|XPHB}, or {@skill Survival|XPHB}) check."
+				],
+				[
+					"{@action Study|XPHB}",
+					"Make an Intelligence ({@skill Arcana|XPHB}, {@skill History|XPHB}, {@skill Investigation|XPHB}, {@skill Nature|XPHB}, or {@skill Religion|XPHB}) check."
+				],
+				[
+					"{@action Utilize|XPHB}",
+					"Use a nonmagical object."
+				]
+			],
+			"name": "Actions",
+			"page": 15,
+			"source": "XPHB",
+			"chapter": {
+				"name": "Playing the Game",
+				"ordinal": {
+					"type": "chapter",
+					"identifier": 1
+				},
+				"index": 1
+			}
+		},
+		{
+			"caption": "Travel Pace",
+			"srd52": true,
+			"basicRules2024": true,
+			"colLabelRows": [
+				[
+					"",
+					{
+						"type": "cellHeader",
+						"width": 3,
+						"entry": "Distance Traveled Per...",
+						"style": "th-skewer"
+					}
+				],
+				[
+					"Pace",
+					"Minute",
+					"Hour",
+					"Day"
+				]
+			],
+			"colStyles": [
+				"col-3",
+				"col-3",
+				"col-3",
+				"col-3"
+			],
+			"rows": [
+				[
+					"Fast",
+					"400 feet",
+					"4 miles",
+					"30 miles"
+				],
+				[
+					"Normal",
+					"300 feet",
+					"3 miles",
+					"24 miles"
+				],
+				[
+					"Slow",
+					"200 feet",
+					"2 miles",
+					"18 miles"
+				]
+			],
+			"name": "Travel Pace",
+			"page": 20,
+			"source": "XPHB",
+			"chapter": {
+				"name": "Playing the Game",
+				"ordinal": {
+					"type": "chapter",
+					"identifier": 1
+				},
+				"index": 1
+			}
+		},
+		{
+			"caption": "Creature Size and Space",
+			"srd52": true,
+			"basicRules2024": true,
+			"colLabels": [
+				"Size",
+				"Space (Feet)",
+				"Space (Squares)"
+			],
+			"colStyles": [
+				"col-4",
+				"col-4",
+				"col-4"
+			],
+			"rows": [
+				[
+					"Tiny",
+					"2½ by 2½ feet",
+					"4 per square"
+				],
+				[
+					"Small",
+					"5 by 5 feet",
+					"1 square"
+				],
+				[
+					"Medium",
+					"5 by 5 feet",
+					"1 square"
+				],
+				[
+					"Large",
+					"10 by 10 feet",
+					"4 squares (2 by 2)"
+				],
+				[
+					"Huge",
+					"15 by 15 feet",
+					"9 squares (3 by 3)"
+				],
+				[
+					"Gargantuan",
+					"20 by 20 feet",
+					"16 squares (4 by 4)"
+				]
+			],
+			"name": "Creature Size and Space",
+			"page": 25,
+			"source": "XPHB",
+			"chapter": {
+				"name": "Playing the Game",
+				"ordinal": {
+					"type": "chapter",
+					"identifier": 1
+				},
+				"index": 1
+			}
+		},
+		{
+			"caption": "Cover",
+			"srd52": true,
+			"basicRules2024": true,
+			"colLabels": [
+				"Degree",
+				"Benefit to Target",
+				"Offered By..."
+			],
+			"colStyles": [
+				"col-2",
+				"col-4",
+				"col-6"
+			],
+			"rows": [
+				[
+					"{@variantrule Cover|XPHB|Half}",
+					"+2 bonus to AC and Dexterity saving throws",
+					"Another creature or an object that covers at least half of the target"
+				],
+				[
+					"{@variantrule Cover|XPHB|Three-Quarters}",
+					"+5 bonus to AC and Dexterity saving throws",
+					"An object that covers at least three-quarters of the target"
+				],
+				[
+					"{@variantrule Cover|XPHB|Total}",
+					"Can't be targeted directly",
+					"An object that covers the whole target"
+				]
+			],
+			"name": "Cover",
+			"page": 25,
+			"source": "XPHB",
+			"chapter": {
+				"name": "Playing the Game",
+				"ordinal": {
+					"type": "chapter",
+					"identifier": 1
+				},
+				"index": 1
+			}
+		},
+		{
+			"caption": "Class Overview",
+			"srd52": true,
+			"basicRules2024": true,
+			"colLabels": [
+				"Class",
+				"Likes...",
+				"Primary Ability",
+				"Complexity"
+			],
+			"colStyles": [
+				"col-3",
+				"col-3",
+				"col-3",
+				"col-3"
+			],
+			"rows": [
+				[
+					"{@class Barbarian|XPHB}",
+					"Battle",
+					"Strength",
+					"Average"
+				],
+				[
+					"{@class Bard|XPHB}",
+					"Performing",
+					"Charisma",
+					"High"
+				],
+				[
+					"{@class Cleric|XPHB}",
+					"Gods",
+					"Wisdom",
+					"Average"
+				],
+				[
+					"{@class Druid|XPHB}",
+					"Nature",
+					"Wisdom",
+					"High"
+				],
+				[
+					"{@class Fighter|XPHB}",
+					"Weapons",
+					"Strength or Dexterity",
+					"Low"
+				],
+				[
+					"{@class Monk|XPHB}",
+					"Unarmed combat",
+					"Dexterity and Wisdom",
+					"High"
+				],
+				[
+					"{@class Paladin|XPHB}",
+					"Defense",
+					"Strength and Charisma",
+					"Average"
+				],
+				[
+					"{@class Ranger|XPHB}",
+					"Survival",
+					"Dexterity and Wisdom",
+					"Average"
+				],
+				[
+					"{@class Rogue|XPHB}",
+					"Stealth",
+					"Dexterity",
+					"Low"
+				],
+				[
+					"{@class Sorcerer|XPHB}",
+					"Power",
+					"Charisma",
+					"High"
+				],
+				[
+					"{@class Warlock|XPHB}",
+					"Occult lore",
+					"Charisma",
+					"High"
+				],
+				[
+					"{@class Wizard|XPHB}",
+					"Spellbooks",
+					"Intelligence",
+					"Average"
+				]
+			],
+			"name": "Choose a Class; Class Overview",
+			"page": 33,
+			"source": "XPHB",
+			"chapter": {
+				"name": "Creating a Character",
+				"ordinal": {
+					"type": "chapter",
+					"identifier": 2
+				},
+				"index": 2
+			}
+		},
+		{
+			"caption": "Ability Scores and Backgrounds",
+			"srd52": true,
+			"basicRules2024": true,
+			"colLabels": [
+				"Ability",
+				"Backgrounds"
+			],
+			"colStyles": [
+				"col-2",
+				"col-10"
+			],
+			"rows": [
+				[
+					"Strength",
+					"{@background Artisan|XPHB}, {@background Entertainer|XPHB}, {@background Farmer|XPHB}, {@background Guard|XPHB}, {@background Noble|XPHB}, {@background Sailor|XPHB}, {@background Soldier|XPHB}"
+				],
+				[
+					"Dexterity",
+					"{@background Artisan|XPHB}, {@background Charlatan|XPHB}, {@background Criminal|XPHB}, {@background Entertainer|XPHB}, {@background Guide|XPHB}, {@background Sailor|XPHB}, {@background Scribe|XPHB}, {@background Soldier|XPHB}, {@background Wayfarer|XPHB}"
+				],
+				[
+					"Constitution",
+					"{@background Charlatan|XPHB}, {@background Criminal|XPHB}, {@background Farmer|XPHB}, {@background Guide|XPHB}, {@background Hermit|XPHB}, {@background Merchant|XPHB}, {@background Sage|XPHB}, {@background Soldier|XPHB}"
+				],
+				[
+					"Intelligence",
+					"{@background Acolyte|XPHB}, {@background Artisan|XPHB}, {@background Criminal|XPHB}, {@background Guard|XPHB}, {@background Merchant|XPHB}, {@background Noble|XPHB}, {@background Sage|XPHB}, {@background Scribe|XPHB}"
+				],
+				[
+					"Wisdom",
+					"{@background Acolyte|XPHB}, {@background Farmer|XPHB}, {@background Guard|XPHB}, {@background Guide|XPHB}, {@background Hermit|XPHB}, {@background Sage|XPHB}, {@background Sailor|XPHB}, {@background Scribe|XPHB}, {@background Wayfarer|XPHB}"
+				],
+				[
+					"Charisma",
+					"{@background Acolyte|XPHB}, {@background Charlatan|XPHB}, {@background Entertainer|XPHB}, {@background Hermit|XPHB}, {@background Merchant|XPHB}, {@background Noble|XPHB}, {@background Wayfarer|XPHB}"
+				]
+			],
+			"name": "Choose a Background; Ability Scores and Backgrounds",
+			"page": 36,
+			"source": "XPHB",
+			"chapter": {
+				"name": "Creating a Character",
+				"ordinal": {
+					"type": "chapter",
+					"identifier": 2
+				},
+				"index": 2
+			}
+		},
+		{
+			"caption": "Standard Languages",
+			"srd52": true,
+			"basicRules2024": true,
+			"colLabels": [
+				"{@dice 1d12}",
+				"Language",
+				"Origin"
+			],
+			"colStyles": [
+				"col-2 text-center",
+				"col-8",
+				"col-2"
+			],
+			"rows": [
+				[
+					"—",
+					"{@language Common|XPHB}",
+					"Sigil"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 1
+						}
+					},
+					"{@language Common Sign Language|XPHB}",
+					"Sigil"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 2
+						}
+					},
+					"{@language Draconic|XPHB}",
+					"Dragons"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"min": 3,
+							"max": 4
+						}
+					},
+					"{@language Dwarvish|XPHB}",
+					"Dwarves"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"min": 5,
+							"max": 6
+						}
+					},
+					"{@language Elvish|XPHB}",
+					"Elves"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 7
+						}
+					},
+					"{@language Giant|XPHB}",
+					"Giants"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 8
+						}
+					},
+					"{@language Gnomish|XPHB}",
+					"Gnomes"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 9
+						}
+					},
+					"{@language Goblin|XPHB}",
+					"Goblinoids"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"min": 10,
+							"max": 11
+						}
+					},
+					"{@language Halfling|XPHB}",
+					"Halflings"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 12
+						}
+					},
+					"{@language Orc|XPHB}",
+					"Orcs"
+				]
+			],
+			"name": "Choose Languages; Standard Languages",
+			"page": 37,
+			"source": "XPHB",
+			"chapter": {
+				"name": "Creating a Character",
+				"ordinal": {
+					"type": "chapter",
+					"identifier": 2
+				},
+				"index": 2
+			}
+		},
+		{
+			"caption": "Rare Languages",
+			"srd52": true,
+			"basicRules2024": true,
+			"colLabels": [
+				"Language",
+				"Origin"
+			],
+			"colStyles": [
+				"col-6",
+				"col-6"
+			],
+			"rows": [
+				[
+					"Abyssal",
+					"Demons of the Abyss"
+				],
+				[
+					"Celestial",
+					"Celestials"
+				],
+				[
+					"Deep Speech",
+					"Aberrations"
+				],
+				[
+					"Druidic",
+					"Druidic circles"
+				],
+				[
+					"Infernal",
+					"Devils of the Nine Hells"
+				],
+				[
+					"Primordial*",
+					"Elementals"
+				],
+				[
+					"Sylvan",
+					"The Feywild"
+				],
+				[
+					"Thieves' Cant",
+					"Various criminal guilds"
+				],
+				[
+					"Undercommon",
+					"The Underdark"
+				]
+			],
+			"footnotes": [
+				"*Primordial includes the Aquan, Auran, Ignan, and Terran dialects. Creatures that know one of these dialects can communicate with those that know a different one."
+			],
+			"name": "Choose Languages; Rare Languages",
+			"page": 37,
+			"source": "XPHB",
+			"chapter": {
+				"name": "Creating a Character",
+				"ordinal": {
+					"type": "chapter",
+					"identifier": 2
+				},
+				"index": 2
+			}
+		},
+		{
+			"caption": "Ability Score Point Costs",
+			"srd52": true,
+			"basicRules2024": true,
+			"colLabels": [
+				"Score",
+				"Cost"
+			],
+			"colStyles": [
+				"col-6 text-center",
+				"col-6 text-center"
+			],
+			"rows": [
+				[
+					"8",
+					"0"
+				],
+				[
+					"9",
+					"1"
+				],
+				[
+					"10",
+					"2"
+				],
+				[
+					"11",
+					"3"
+				],
+				[
+					"12",
+					"4"
+				],
+				[
+					"13",
+					"5"
+				],
+				[
+					"14",
+					"7"
+				],
+				[
+					"15",
+					"9"
+				]
+			],
+			"name": "Ability Score Point Costs",
+			"page": 38,
+			"source": "XPHB",
+			"chapter": {
+				"name": "Creating a Character",
+				"ordinal": {
+					"type": "chapter",
+					"identifier": 2
+				},
+				"index": 2
+			}
+		},
+		{
+			"caption": "Standard Array by Class",
+			"srd52": true,
+			"basicRules2024": true,
+			"colLabels": [
+				"Class",
+				"Str.",
+				"Dex.",
+				"Con.",
+				"Int.",
+				"Wis.",
+				"Cha."
+			],
+			"colStyles": [
+				"col-6",
+				"col-1 text-center",
+				"col-1 text-center",
+				"col-1 text-center",
+				"col-1 text-center",
+				"col-1 text-center",
+				"col-1 text-center"
+			],
+			"rows": [
+				[
+					"{@class Barbarian|XPHB}",
+					"15",
+					"13",
+					"14",
+					"10",
+					"12",
+					"8"
+				],
+				[
+					"{@class Bard|XPHB}",
+					"8",
+					"14",
+					"12",
+					"13",
+					"10",
+					"15"
+				],
+				[
+					"{@class Cleric|XPHB}",
+					"14",
+					"8",
+					"13",
+					"10",
+					"15",
+					"12"
+				],
+				[
+					"{@class Druid|XPHB}",
+					"8",
+					"12",
+					"14",
+					"13",
+					"15",
+					"10"
+				],
+				[
+					"{@class Fighter|XPHB}",
+					"15",
+					"14",
+					"13",
+					"8",
+					"10",
+					"12"
+				],
+				[
+					"{@class Monk|XPHB}",
+					"12",
+					"15",
+					"13",
+					"10",
+					"14",
+					"8"
+				],
+				[
+					"{@class Paladin|XPHB}",
+					"15",
+					"10",
+					"13",
+					"8",
+					"12",
+					"14"
+				],
+				[
+					"{@class Ranger|XPHB}",
+					"12",
+					"15",
+					"13",
+					"8",
+					"14",
+					"10"
+				],
+				[
+					"{@class Rogue|XPHB}",
+					"12",
+					"15",
+					"13",
+					"14",
+					"10",
+					"8"
+				],
+				[
+					"{@class Sorcerer|XPHB}",
+					"10",
+					"13",
+					"14",
+					"8",
+					"12",
+					"15"
+				],
+				[
+					"{@class Warlock|XPHB}",
+					"8",
+					"14",
+					"13",
+					"12",
+					"10",
+					"15"
+				],
+				[
+					"{@class Wizard|XPHB}",
+					"8",
+					"12",
+					"13",
+					"15",
+					"14",
+					"10"
+				]
+			],
+			"name": "Assign Ability Scores; Standard Array by Class",
+			"page": 38,
+			"source": "XPHB",
+			"chapter": {
+				"name": "Creating a Character",
+				"ordinal": {
+					"type": "chapter",
+					"identifier": 2
+				},
+				"index": 2
+			}
+		},
+		{
+			"caption": "Ability Scores and Modifiers",
+			"srd52": true,
+			"basicRules2024": true,
+			"colLabels": [
+				"Score",
+				"Modifier"
+			],
+			"colStyles": [
+				"col-6 text-center",
+				"col-6 text-center"
+			],
+			"rows": [
+				[
+					"3",
+					"−4"
+				],
+				[
+					"4–5",
+					"−3"
+				],
+				[
+					"6–7",
+					"−2"
+				],
+				[
+					"8–9",
+					"−1"
+				],
+				[
+					"10–11",
+					"+0"
+				],
+				[
+					"12–13",
+					"+1"
+				],
+				[
+					"14–15",
+					"+2"
+				],
+				[
+					"16–17",
+					"+3"
+				],
+				[
+					"18–19",
+					"+4"
+				],
+				[
+					"20",
+					"+5"
+				]
+			],
+			"name": "Determine Ability Modifiers; Ability Scores and Modifiers",
+			"page": 38,
+			"source": "XPHB",
+			"chapter": {
+				"name": "Creating a Character",
+				"ordinal": {
+					"type": "chapter",
+					"identifier": 2
+				},
+				"index": 2
+			}
+		},
+		{
+			"caption": "Level 1 Hit Points by Class",
+			"srd52": true,
+			"basicRules2024": true,
+			"colLabels": [
+				"Class",
+				"Hit Point Maximum"
+			],
+			"colStyles": [
+				"col-6",
+				"col-6"
+			],
+			"rows": [
+				[
+					"{@class Barbarian|XPHB}",
+					"12 + Con. modifier"
+				],
+				[
+					"{@class Fighter|XPHB}, {@class Paladin|XPHB}, or {@class Ranger|XPHB}",
+					"10 + Con. modifier"
+				],
+				[
+					"{@class Bard|XPHB}, {@class Cleric|XPHB}, {@class Druid|XPHB}, {@class Monk|XPHB}, {@class Rogue|XPHB}, or {@class Warlock|XPHB}",
+					"8 + Con. modifier"
+				],
+				[
+					"{@class Sorcerer|XPHB} or {@class Wizard|XPHB}",
+					"6 + Con. modifier"
+				]
+			],
+			"name": "Level 1 Hit Points by Class",
+			"page": 40,
+			"source": "XPHB",
+			"chapter": {
+				"name": "Creating a Character",
+				"ordinal": {
+					"type": "chapter",
+					"identifier": 2
+				},
+				"index": 2
+			}
+		},
+		{
+			"caption": "Character Advancement",
+			"srd52": true,
+			"basicRules2024": true,
+			"colLabels": [
+				"Level",
+				"Experience Points",
+				"Proficiency Bonus"
+			],
+			"colStyles": [
+				"col-2 text-center",
+				"col-5",
+				"col-5 text-center"
+			],
+			"rows": [
+				[
+					"1",
+					"0",
+					"+2"
+				],
+				[
+					"2",
+					"300",
+					"+2"
+				],
+				[
+					"3",
+					"900",
+					"+2"
+				],
+				[
+					"4",
+					"2,700",
+					"+2"
+				],
+				[
+					"5",
+					"6,500",
+					"+3"
+				],
+				[
+					"6",
+					"14,000",
+					"+3"
+				],
+				[
+					"7",
+					"23,000",
+					"+3"
+				],
+				[
+					"8",
+					"34,000",
+					"+3"
+				],
+				[
+					"9",
+					"48,000",
+					"+4"
+				],
+				[
+					"10",
+					"64,000",
+					"+4"
+				],
+				[
+					"11",
+					"85,000",
+					"+4"
+				],
+				[
+					"12",
+					"100,000",
+					"+4"
+				],
+				[
+					"13",
+					"120,000",
+					"+5"
+				],
+				[
+					"14",
+					"140,000",
+					"+5"
+				],
+				[
+					"15",
+					"165,000",
+					"+5"
+				],
+				[
+					"16",
+					"195,000",
+					"+5"
+				],
+				[
+					"17",
+					"225,000",
+					"+6"
+				],
+				[
+					"18",
+					"265,000",
+					"+6"
+				],
+				[
+					"19",
+					"305,000",
+					"+6"
+				],
+				[
+					"20",
+					"355,000",
+					"+6"
+				]
+			],
+			"name": "Level Advancement; Character Advancement",
+			"page": 41,
+			"source": "XPHB",
+			"chapter": {
+				"name": "Creating a Character",
+				"ordinal": {
+					"type": "chapter",
+					"identifier": 2
+				},
+				"index": 2
+			}
+		},
+		{
+			"caption": "Fixed Hit Points by Class",
+			"srd52": true,
+			"basicRules2024": true,
+			"colLabels": [
+				"Class",
+				"Hit Points per Level"
+			],
+			"colStyles": [
+				"col-6",
+				"col-6"
+			],
+			"rows": [
+				[
+					"{@class Barbarian|XPHB}",
+					"7 + Con. modifier"
+				],
+				[
+					"{@class Fighter|XPHB}, {@class Paladin|XPHB}, or {@class Ranger|XPHB}",
+					"6 + Con. modifier"
+				],
+				[
+					"{@class Bard|XPHB}, {@class Cleric|XPHB}, {@class Druid|XPHB}, {@class Monk|XPHB}, {@class Rogue|XPHB}, or {@class Warlock|XPHB}",
+					"5 + Con. modifier"
+				],
+				[
+					"{@class Sorcerer|XPHB} or {@class Wizard|XPHB}",
+					"4 + Con. modifier"
+				]
+			],
+			"name": "Adjust Hit Points and Hit Point Dice; Fixed Hit Points by Class",
+			"page": 42,
+			"source": "XPHB",
+			"chapter": {
+				"name": "Creating a Character",
+				"ordinal": {
+					"type": "chapter",
+					"identifier": 2
+				},
+				"index": 2
+			}
+		},
+		{
+			"caption": "Starting Equipment at Higher Levels",
+			"srd52": true,
+			"basicRules2024": true,
+			"colLabels": [
+				"Starting Level",
+				"Equipment and Money",
+				"Magic Items"
+			],
+			"colStyles": [
+				"col-2 text-center",
+				"col-6",
+				"col-4"
+			],
+			"rows": [
+				[
+					"2–4",
+					"Normal starting equipment",
+					"1 {@filter Common|items|rarity=Common}"
+				],
+				[
+					"5–10",
+					"500 GP plus {@dice 1d10 × 25} GP plus normal starting equipment",
+					"1 {@filter Common|items|rarity=Common}, 1 {@filter Uncommon|items|rarity=Uncommon}"
+				],
+				[
+					"11–16",
+					"5,000 gp plus {@dice 1d10 × 250} GP plus normal starting equipment",
+					"2 {@filter Common|items|rarity=Common}, 3 {@filter Uncommon|items|rarity=Uncommon}, 1 {@filter Rare|items|rarity=Rare}"
+				],
+				[
+					"17–20",
+					"20,000 GP plus {@dice 1d10 × 250} GP plus normal starting equipment",
+					"2 {@filter Common|items|rarity=Common}, 4 {@filter Uncommon|items|rarity=Uncommon}, 3 {@filter Rare|items|rarity=Rare}, 1 {@filter Very Rare|items|rarity=Very Rare}"
+				]
+			],
+			"name": "Starting Equipment at Higher Levels",
+			"page": 43,
+			"source": "XPHB",
+			"chapter": {
+				"name": "Creating a Character",
+				"ordinal": {
+					"type": "chapter",
+					"identifier": 2
+				},
+				"index": 2
+			}
+		},
+		{
+			"caption": "Multiclass Spellcaster: Spell Slots per Spell Level",
+			"srd52": true,
+			"basicRules2024": true,
+			"colLabels": [
+				"Level",
+				"1",
+				"2",
+				"3",
+				"4",
+				"5",
+				"6",
+				"7",
+				"8",
+				"9"
+			],
+			"colStyles": [
+				"col-3 text-center",
+				"col-1 text-center",
+				"col-1 text-center",
+				"col-1 text-center",
+				"col-1 text-center",
+				"col-1 text-center",
+				"col-1 text-center",
+				"col-1 text-center",
+				"col-1 text-center",
+				"col-1 text-center"
+			],
+			"rows": [
+				[
+					"1",
+					"2",
+					"—",
+					"—",
+					"—",
+					"—",
+					"—",
+					"—",
+					"—",
+					"—"
+				],
+				[
+					"2",
+					"3",
+					"—",
+					"—",
+					"—",
+					"—",
+					"—",
+					"—",
+					"—",
+					"—"
+				],
+				[
+					"3",
+					"4",
+					"2",
+					"—",
+					"—",
+					"—",
+					"—",
+					"—",
+					"—",
+					"—"
+				],
+				[
+					"4",
+					"4",
+					"3",
+					"—",
+					"—",
+					"—",
+					"—",
+					"—",
+					"—",
+					"—"
+				],
+				[
+					"5",
+					"4",
+					"3",
+					"2",
+					"—",
+					"—",
+					"—",
+					"—",
+					"—",
+					"—"
+				],
+				[
+					"6",
+					"4",
+					"3",
+					"3",
+					"—",
+					"—",
+					"—",
+					"—",
+					"—",
+					"—"
+				],
+				[
+					"7",
+					"4",
+					"3",
+					"3",
+					"1",
+					"—",
+					"—",
+					"—",
+					"—",
+					"—"
+				],
+				[
+					"8",
+					"4",
+					"3",
+					"3",
+					"2",
+					"—",
+					"—",
+					"—",
+					"—",
+					"—"
+				],
+				[
+					"9",
+					"4",
+					"3",
+					"3",
+					"3",
+					"1",
+					"—",
+					"—",
+					"—",
+					"—"
+				],
+				[
+					"10",
+					"4",
+					"3",
+					"3",
+					"3",
+					"2",
+					"—",
+					"—",
+					"—",
+					"—"
+				],
+				[
+					"11",
+					"4",
+					"3",
+					"3",
+					"3",
+					"2",
+					"1",
+					"—",
+					"—",
+					"—"
+				],
+				[
+					"12",
+					"4",
+					"3",
+					"3",
+					"3",
+					"2",
+					"1",
+					"—",
+					"—",
+					"—"
+				],
+				[
+					"13",
+					"4",
+					"3",
+					"3",
+					"3",
+					"2",
+					"1",
+					"1",
+					"—",
+					"—"
+				],
+				[
+					"14",
+					"4",
+					"3",
+					"3",
+					"3",
+					"2",
+					"1",
+					"1",
+					"—",
+					"—"
+				],
+				[
+					"15",
+					"4",
+					"3",
+					"3",
+					"3",
+					"2",
+					"1",
+					"1",
+					"1",
+					"—"
+				],
+				[
+					"16",
+					"4",
+					"3",
+					"3",
+					"3",
+					"2",
+					"1",
+					"1",
+					"1",
+					"—"
+				],
+				[
+					"17",
+					"4",
+					"3",
+					"3",
+					"3",
+					"2",
+					"1",
+					"1",
+					"1",
+					"1"
+				],
+				[
+					"18",
+					"4",
+					"3",
+					"3",
+					"3",
+					"3",
+					"1",
+					"1",
+					"1",
+					"1"
+				],
+				[
+					"19",
+					"4",
+					"3",
+					"3",
+					"3",
+					"3",
+					"2",
+					"1",
+					"1",
+					"1"
+				],
+				[
+					"20",
+					"4",
+					"3",
+					"3",
+					"3",
+					"3",
+					"2",
+					"2",
+					"1",
+					"1"
+				]
+			],
+			"name": "Spellcasting; Multiclass Spellcaster: Spell Slots per Spell Level",
+			"page": 44,
+			"source": "XPHB",
+			"chapter": {
+				"name": "Creating a Character",
+				"ordinal": {
+					"type": "chapter",
+					"identifier": 2
+				},
+				"index": 2
+			}
+		},
+		{
+			"caption": "Coin Values",
+			"srd52": true,
+			"basicRules2024": true,
+			"colLabels": [
+				"Coin",
+				"Value in GP"
+			],
+			"colStyles": [
+				"col-6",
+				"col-6"
+			],
+			"rows": [
+				[
+					"Copper Piece (CP)",
+					"1/100"
+				],
+				[
+					"Silver Piece (SP)",
+					"1/10"
+				],
+				[
+					"Electrum Piece (EP)",
+					"1/2"
+				],
+				[
+					"Gold Piece (GP)",
+					"1"
+				],
+				[
+					"Platinum Piece (PP)",
+					"10"
+				]
+			],
+			"name": "Coins; Coin Values",
+			"page": 213,
+			"source": "XPHB",
+			"chapter": {
+				"name": "Equipment",
+				"ordinal": {
+					"type": "chapter",
+					"identifier": 6
+				},
+				"index": 6
+			}
+		},
+		{
+			"caption": "Weapons",
+			"srd52": true,
+			"basicRules2024": true,
+			"colLabels": [
+				"Name",
+				"Damage",
+				"Properties",
+				"Mastery",
+				"Weight",
+				"Cost"
+			],
+			"colStyles": [
+				"col-2",
+				"col-2",
+				"col-4-1",
+				"col-1-3 text-center",
+				"col-1-3 text-center",
+				"col-1-3 text-right"
+			],
+			"rows": [
+				[
+					{
+						"type": "cell",
+						"width": 6,
+						"entry": "{@i Simple Melee Weapons}"
+					}
+				],
+				{
+					"type": "row",
+					"style": "row-indent-first",
+					"row": [
+						"{@item Club|XPHB}",
+						"{@dice 1d4} Bludgeoning",
+						"{@itemProperty L|XPHB|Light}",
+						"{@itemMastery Slow}",
+						"2 lb.",
+						"1 SP"
+					]
+				},
+				{
+					"type": "row",
+					"style": "row-indent-first",
+					"row": [
+						"{@item Dagger|XPHB}",
+						"{@dice 1d4} Piercing",
+						"{@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light}, {@itemProperty T|XPHB|Thrown} (Range 20/60)",
+						"{@itemMastery Nick}",
+						"1 lb.",
+						"2 GP"
+					]
+				},
+				{
+					"type": "row",
+					"style": "row-indent-first",
+					"row": [
+						"{@item Greatclub|XPHB}",
+						"{@dice 1d8} Bludgeoning",
+						"{@itemProperty 2H|XPHB|Two-Handed}",
+						"{@itemMastery Push}",
+						"10 lb.",
+						"2 SP"
+					]
+				},
+				{
+					"type": "row",
+					"style": "row-indent-first",
+					"row": [
+						"{@item Handaxe|XPHB}",
+						"{@dice 1d6} Slashing",
+						"{@itemProperty L|XPHB|Light}, {@itemProperty T|XPHB|Thrown} (Range 20/60)",
+						"{@itemMastery Vex}",
+						"2 lb.",
+						"5 GP"
+					]
+				},
+				{
+					"type": "row",
+					"style": "row-indent-first",
+					"row": [
+						"{@item Javelin|XPHB}",
+						"{@dice 1d6} Piercing",
+						"{@itemProperty T|XPHB|Thrown} (Range 30/120)",
+						"{@itemMastery Slow}",
+						"2 lb.",
+						"5 SP"
+					]
+				},
+				{
+					"type": "row",
+					"style": "row-indent-first",
+					"row": [
+						"{@item Light Hammer|XPHB}",
+						"{@dice 1d4} Bludgeoning",
+						"{@itemProperty L|XPHB|Light}, {@itemProperty T|XPHB|Thrown} (Range 20/60)",
+						"{@itemMastery Nick}",
+						"2 lb.",
+						"2 GP"
+					]
+				},
+				{
+					"type": "row",
+					"style": "row-indent-first",
+					"row": [
+						"{@item Mace|XPHB}",
+						"{@dice 1d6} Bludgeoning",
+						"—",
+						"{@itemMastery Sap}",
+						"4 lb.",
+						"5 GP"
+					]
+				},
+				{
+					"type": "row",
+					"style": "row-indent-first",
+					"row": [
+						"{@item Quarterstaff|XPHB}",
+						"{@dice 1d6} Bludgeoning",
+						"{@itemProperty V|XPHB|Versatile} ({@dice 1d8})",
+						"{@itemMastery Topple}",
+						"4 lb.",
+						"2 SP"
+					]
+				},
+				{
+					"type": "row",
+					"style": "row-indent-first",
+					"row": [
+						"{@item Sickle|XPHB}",
+						"{@dice 1d4} Slashing",
+						"{@itemProperty L|XPHB|Light}",
+						"{@itemMastery Nick}",
+						"2 lb.",
+						"1 GP"
+					]
+				},
+				{
+					"type": "row",
+					"style": "row-indent-first",
+					"row": [
+						"{@item Spear|XPHB}",
+						"{@dice 1d6} Piercing",
+						"{@itemProperty T|XPHB|Thrown} (Range 20/60), {@itemProperty V|XPHB|Versatile} ({@dice 1d8})",
+						"{@itemMastery Sap}",
+						"3 lb.",
+						"1 GP"
+					]
+				},
+				[
+					{
+						"type": "cell",
+						"width": 6,
+						"entry": "{@i Simple Ranged Weapons}"
+					}
+				],
+				{
+					"type": "row",
+					"style": "row-indent-first",
+					"row": [
+						"{@item Dart|XPHB}",
+						"{@dice 1d4} Piercing",
+						"{@itemProperty F|XPHB|Finesse}, {@itemProperty T|XPHB|Thrown} (Range 20/60)",
+						"{@itemMastery Vex}",
+						"1/4 lb.",
+						"5 CP"
+					]
+				},
+				{
+					"type": "row",
+					"style": "row-indent-first",
+					"row": [
+						"{@item Light Crossbow|XPHB}",
+						"{@dice 1d8} Piercing",
+						"{@itemProperty A|XPHB|Ammunition} (Range 80/320; Bolt), {@itemProperty LD|XPHB|Loading}, {@itemProperty 2H|XPHB|Two-Handed}",
+						"{@itemMastery Slow}",
+						"5 lb.",
+						"25 GP"
+					]
+				},
+				{
+					"type": "row",
+					"style": "row-indent-first",
+					"row": [
+						"{@item Shortbow|XPHB}",
+						"{@dice 1d6} Piercing",
+						"{@itemProperty A|XPHB|Ammunition} (Range 80/320; Arrow), {@itemProperty 2H|XPHB|Two-Handed}",
+						"{@itemMastery Vex}",
+						"2 lb.",
+						"25 GP"
+					]
+				},
+				{
+					"type": "row",
+					"style": "row-indent-first",
+					"row": [
+						"{@item Sling|XPHB}",
+						"{@dice 1d4} Bludgeoning",
+						"{@itemProperty A|XPHB|Ammunition} (Range 30/120; Bullet)",
+						"{@itemMastery Slow}",
+						"—",
+						"1 SP"
+					]
+				},
+				[
+					{
+						"type": "cell",
+						"width": 6,
+						"entry": "{@i Martial Melee Weapons}"
+					}
+				],
+				{
+					"type": "row",
+					"style": "row-indent-first",
+					"row": [
+						"{@item Battleaxe|XPHB}",
+						"{@dice 1d8} Slashing",
+						"{@itemProperty V|XPHB|Versatile} ({@dice 1d10})",
+						"{@itemMastery Topple}",
+						"4 lb.",
+						"10 GP"
+					]
+				},
+				{
+					"type": "row",
+					"style": "row-indent-first",
+					"row": [
+						"{@item Flail|XPHB}",
+						"{@dice 1d8} Bludgeoning",
+						"—",
+						"{@itemMastery Sap}",
+						"2 lb.",
+						"10 GP"
+					]
+				},
+				{
+					"type": "row",
+					"style": "row-indent-first",
+					"row": [
+						"{@item Glaive|XPHB}",
+						"{@dice 1d10} Slashing",
+						"{@itemProperty H|XPHB|Heavy}, {@itemProperty R|XPHB|Reach}, {@itemProperty 2H|XPHB|Two-Handed}",
+						"{@itemMastery Graze}",
+						"6 lb.",
+						"20 GP"
+					]
+				},
+				{
+					"type": "row",
+					"style": "row-indent-first",
+					"row": [
+						"{@item Greataxe|XPHB}",
+						"{@dice 1d12} Slashing",
+						"{@itemProperty H|XPHB|Heavy}, {@itemProperty 2H|XPHB|Two-Handed}",
+						"{@itemMastery Cleave}",
+						"7 lb.",
+						"30 GP"
+					]
+				},
+				{
+					"type": "row",
+					"style": "row-indent-first",
+					"row": [
+						"{@item Greatsword|XPHB}",
+						"{@dice 2d6} Slashing",
+						"{@itemProperty H|XPHB|Heavy}, {@itemProperty 2H|XPHB|Two-Handed}",
+						"{@itemMastery Graze}",
+						"6 lb.",
+						"50 GP"
+					]
+				},
+				{
+					"type": "row",
+					"style": "row-indent-first",
+					"row": [
+						"{@item Halberd|XPHB}",
+						"{@dice 1d10} Slashing",
+						"{@itemProperty H|XPHB|Heavy}, {@itemProperty R|XPHB|Reach}, {@itemProperty 2H|XPHB|Two-Handed}",
+						"{@itemMastery Cleave}",
+						"6 lb.",
+						"20 GP"
+					]
+				},
+				{
+					"type": "row",
+					"style": "row-indent-first",
+					"row": [
+						"{@item Lance|XPHB}",
+						"{@dice 1d10} Piercing",
+						"{@itemProperty H|XPHB|Heavy}, {@itemProperty R|XPHB|Reach}, {@itemProperty 2H|XPHB|Two-Handed} (unless mounted)",
+						"{@itemMastery Topple}",
+						"6 lb.",
+						"10 GP"
+					]
+				},
+				{
+					"type": "row",
+					"style": "row-indent-first",
+					"row": [
+						"{@item Longsword|XPHB}",
+						"{@dice 1d8} Slashing",
+						"{@itemProperty V|XPHB|Versatile} ({@dice 1d10})",
+						"{@itemMastery Sap}",
+						"3 lb.",
+						"15 GP"
+					]
+				},
+				{
+					"type": "row",
+					"style": "row-indent-first",
+					"row": [
+						"{@item Maul|XPHB}",
+						"{@dice 2d6} Bludgeoning",
+						"{@itemProperty H|XPHB|Heavy}, {@itemProperty 2H|XPHB|Two-Handed}",
+						"{@itemMastery Topple}",
+						"10 lb.",
+						"10 GP"
+					]
+				},
+				{
+					"type": "row",
+					"style": "row-indent-first",
+					"row": [
+						"{@item Morningstar|XPHB}",
+						"{@dice 1d8} Piercing",
+						"—",
+						"{@itemMastery Sap}",
+						"4 lb.",
+						"15 GP"
+					]
+				},
+				{
+					"type": "row",
+					"style": "row-indent-first",
+					"row": [
+						"{@item Pike|XPHB}",
+						"{@dice 1d10} Piercing",
+						"{@itemProperty H|XPHB|Heavy}, {@itemProperty R|XPHB|Reach}, {@itemProperty 2H|XPHB|Two-Handed}",
+						"{@itemMastery Push}",
+						"18 lb.",
+						"5 GP"
+					]
+				},
+				{
+					"type": "row",
+					"style": "row-indent-first",
+					"row": [
+						"{@item Rapier|XPHB}",
+						"{@dice 1d8} Piercing",
+						"{@itemProperty F|XPHB|Finesse}",
+						"{@itemMastery Vex}",
+						"2 lb.",
+						"25 GP"
+					]
+				},
+				{
+					"type": "row",
+					"style": "row-indent-first",
+					"row": [
+						"{@item Scimitar|XPHB}",
+						"{@dice 1d6} Slashing",
+						"{@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light}",
+						"{@itemMastery Nick}",
+						"3 lb.",
+						"25 GP"
+					]
+				},
+				{
+					"type": "row",
+					"style": "row-indent-first",
+					"row": [
+						"{@item Shortsword|XPHB}",
+						"{@dice 1d6} Piercing",
+						"{@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light}",
+						"{@itemMastery Vex}",
+						"2 lb.",
+						"10 GP"
+					]
+				},
+				{
+					"type": "row",
+					"style": "row-indent-first",
+					"row": [
+						"{@item Trident|XPHB}",
+						"{@dice 1d8} Piercing",
+						"{@itemProperty T|XPHB|Thrown} (Range 20/60), {@itemProperty V|XPHB|Versatile} ({@dice 1d10})",
+						"{@itemMastery Topple}",
+						"4 lb.",
+						"5 GP"
+					]
+				},
+				{
+					"type": "row",
+					"style": "row-indent-first",
+					"row": [
+						"{@item Warhammer|XPHB}",
+						"{@dice 1d8} Bludgeoning",
+						"{@itemProperty V|XPHB|Versatile} ({@dice 1d10})",
+						"{@itemMastery Push}",
+						"5 lb.",
+						"15 GP"
+					]
+				},
+				{
+					"type": "row",
+					"style": "row-indent-first",
+					"row": [
+						"{@item War Pick|XPHB}",
+						"{@dice 1d8} Piercing",
+						"{@itemProperty V|XPHB|Versatile} ({@dice 1d10})",
+						"{@itemMastery Sap}",
+						"2 lb.",
+						"5 GP"
+					]
+				},
+				{
+					"type": "row",
+					"style": "row-indent-first",
+					"row": [
+						"{@item Whip|XPHB}",
+						"{@dice 1d4} Slashing",
+						"{@itemProperty F|XPHB|Finesse}, {@itemProperty R|XPHB|Reach}",
+						"{@itemMastery Slow}",
+						"3 lb.",
+						"2 GP"
+					]
+				},
+				[
+					{
+						"type": "cell",
+						"width": 6,
+						"entry": "{@i Martial Ranged Weapons}"
+					}
+				],
+				{
+					"type": "row",
+					"style": "row-indent-first",
+					"row": [
+						"{@item Blowgun|XPHB}",
+						"1 Piercing",
+						"{@itemProperty A|XPHB|Ammunition} (Range 25/100; Needle), {@itemProperty LD|XPHB|Loading}",
+						"{@itemMastery Vex}",
+						"1 lb.",
+						"10 GP"
+					]
+				},
+				{
+					"type": "row",
+					"style": "row-indent-first",
+					"row": [
+						"{@item Hand Crossbow|XPHB}",
+						"{@dice 1d6} Piercing",
+						"{@itemProperty A|XPHB|Ammunition} (Range 30/120; Bolt), {@itemProperty L|XPHB|Light}, {@itemProperty LD|XPHB|Loading}",
+						"{@itemMastery Vex}",
+						"3 lb.",
+						"75 GP"
+					]
+				},
+				{
+					"type": "row",
+					"style": "row-indent-first",
+					"row": [
+						"{@item Heavy Crossbow|XPHB}",
+						"{@dice 1d10} Piercing",
+						"{@itemProperty A|XPHB|Ammunition} (Range 100/400; Bolt), {@itemProperty H|XPHB|Heavy}, {@itemProperty LD|XPHB|Loading}, {@itemProperty 2H|XPHB|Two-Handed}",
+						"{@itemMastery Push}",
+						"18 lb.",
+						"50 GP"
+					]
+				},
+				{
+					"type": "row",
+					"style": "row-indent-first",
+					"row": [
+						"{@item Longbow|XPHB}",
+						"{@dice 1d8} Piercing",
+						"{@itemProperty A|XPHB|Ammunition} (Range 150/600; Arrow), {@itemProperty H|XPHB|Heavy}, {@itemProperty 2H|XPHB|Two-Handed}",
+						"{@itemMastery Slow}",
+						"2 lb.",
+						"50 GP"
+					]
+				},
+				{
+					"type": "row",
+					"style": "row-indent-first",
+					"row": [
+						"{@item Musket|XPHB}",
+						"{@dice 1d12} Piercing",
+						"{@itemProperty A|XPHB|Ammunition} (Range 40/120; Bullet), {@itemProperty LD|XPHB|Loading}, {@itemProperty 2H|XPHB|Two-Handed}",
+						"{@itemMastery Slow}",
+						"10 lb.",
+						"500 GP"
+					]
+				},
+				{
+					"type": "row",
+					"style": "row-indent-first",
+					"row": [
+						"{@item Pistol|XPHB}",
+						"{@dice 1d10} Piercing",
+						"{@itemProperty A|XPHB|Ammunition} (Range 30/90; Bullet), {@itemProperty LD|XPHB|Loading}",
+						"{@itemMastery Vex}",
+						"3 lb.",
+						"250 GP"
+					]
+				}
+			],
+			"name": "Weapons",
+			"page": 213,
+			"source": "XPHB",
+			"chapter": {
+				"name": "Equipment",
+				"ordinal": {
+					"type": "chapter",
+					"identifier": 6
+				},
+				"index": 6
+			}
+		},
+		{
+			"caption": "Armor",
+			"srd52": true,
+			"basicRules2024": true,
+			"colLabels": [
+				"Armor",
+				"Armor Class (AC)",
+				"Strength",
+				"Stealth",
+				"Weight",
+				"Cost"
+			],
+			"colStyles": [
+				"col-2-9",
+				"col-2-9",
+				"col-1-4",
+				"col-2",
+				"col-1-4 text-center",
+				"col-1-4 text-right"
+			],
+			"rows": [
+				[
+					{
+						"type": "cell",
+						"width": 6,
+						"entry": "{@i Light Armor (1 Minute to Don or Doff)}"
+					}
+				],
+				{
+					"type": "row",
+					"style": "row-indent-first",
+					"row": [
+						"{@item Padded Armor|XPHB}",
+						"11 + Dex modifier",
+						"—",
+						"{@variantrule Disadvantage|XPHB}",
+						"8 lb.",
+						"5 GP"
+					]
+				},
+				{
+					"type": "row",
+					"style": "row-indent-first",
+					"row": [
+						"{@item Leather Armor|XPHB}",
+						"11 + Dex modifier",
+						"—",
+						"—",
+						"10 lb.",
+						"10 GP"
+					]
+				},
+				{
+					"type": "row",
+					"style": "row-indent-first",
+					"row": [
+						"{@item Studded Leather Armor|XPHB}",
+						"12 + Dex modifier",
+						"—",
+						"—",
+						"13 lb.",
+						"45 GP"
+					]
+				},
+				[
+					{
+						"type": "cell",
+						"width": 6,
+						"entry": "{@i Medium Armor (5 Minutes to Don and 1 Minute to Doff)}"
+					}
+				],
+				{
+					"type": "row",
+					"style": "row-indent-first",
+					"row": [
+						"{@item Hide Armor|XPHB}",
+						"12 + Dex modifier (max 2)",
+						"—",
+						"—",
+						"12 lb.",
+						"10 GP"
+					]
+				},
+				{
+					"type": "row",
+					"style": "row-indent-first",
+					"row": [
+						"{@item Chain Shirt|XPHB}",
+						"13 + Dex modifier (max 2)",
+						"—",
+						"—",
+						"20 lb.",
+						"50 GP"
+					]
+				},
+				{
+					"type": "row",
+					"style": "row-indent-first",
+					"row": [
+						"{@item Scale Mail|XPHB}",
+						"14 + Dex modifier (max 2)",
+						"—",
+						"{@variantrule Disadvantage|XPHB}",
+						"45 lb.",
+						"50 GP"
+					]
+				},
+				{
+					"type": "row",
+					"style": "row-indent-first",
+					"row": [
+						"{@item Breastplate|XPHB}",
+						"14 + Dex modifier (max 2)",
+						"—",
+						"—",
+						"20 lb.",
+						"400 GP"
+					]
+				},
+				{
+					"type": "row",
+					"style": "row-indent-first",
+					"row": [
+						"{@item Half Plate Armor|XPHB}",
+						"15 + Dex modifier (max 2)",
+						"—",
+						"{@variantrule Disadvantage|XPHB}",
+						"40 lb.",
+						"750 GP"
+					]
+				},
+				[
+					{
+						"type": "cell",
+						"width": 6,
+						"entry": "{@i Heavy Armor (10 Minutes to Don and 5 Minutes to Doff)}"
+					}
+				],
+				{
+					"type": "row",
+					"style": "row-indent-first",
+					"row": [
+						"{@item Ring Mail|XPHB}",
+						"14",
+						"—",
+						"{@variantrule Disadvantage|XPHB}",
+						"40 lb.",
+						"30 GP"
+					]
+				},
+				{
+					"type": "row",
+					"style": "row-indent-first",
+					"row": [
+						"{@item Chain Mail|XPHB}",
+						"16",
+						"Str 13",
+						"{@variantrule Disadvantage|XPHB}",
+						"55 lb.",
+						"75 GP"
+					]
+				},
+				{
+					"type": "row",
+					"style": "row-indent-first",
+					"row": [
+						"{@item Splint Armor|XPHB}",
+						"17",
+						"Str 15",
+						"{@variantrule Disadvantage|XPHB}",
+						"60 lb.",
+						"200 GP"
+					]
+				},
+				{
+					"type": "row",
+					"style": "row-indent-first",
+					"row": [
+						"{@item Plate Armor|XPHB}",
+						"18",
+						"Str 15",
+						"{@variantrule Disadvantage|XPHB}",
+						"65 lb.",
+						"1,500 GP"
+					]
+				},
+				[
+					{
+						"type": "cell",
+						"width": 6,
+						"entry": "{@i Shield ({@action Utilize|XPHB} Action to Don or Doff)}"
+					}
+				],
+				{
+					"type": "row",
+					"style": "row-indent-first",
+					"row": [
+						"{@item Shield|XPHB}",
+						"+2",
+						"—",
+						"—",
+						"6 lb.",
+						"10 GP"
+					]
+				}
+			],
+			"name": "Armor",
+			"page": 219,
+			"source": "XPHB",
+			"chapter": {
+				"name": "Equipment",
+				"ordinal": {
+					"type": "chapter",
+					"identifier": 6
+				},
+				"index": 6
+			}
+		},
+		{
+			"caption": "Adventuring Gear",
+			"srd52": true,
+			"basicRules2024": true,
+			"colLabels": [
+				"Item",
+				"Weight",
+				"Cost"
+			],
+			"colStyles": [
+				"col-8",
+				"col-2 text-center",
+				"col-2 text-right"
+			],
+			"rows": [
+				[
+					"{@item Acid|XPHB}",
+					"1 lb.",
+					"25 GP"
+				],
+				[
+					"{@item Alchemist's Fire|XPHB}",
+					"1 lb.",
+					"50 GP"
+				],
+				[
+					"Ammunition",
+					"Varies",
+					"Varies"
+				],
+				[
+					"{@item Antitoxin|XPHB}",
+					"—",
+					"50 GP"
+				],
+				[
+					"{@item Arcane Focus|XPHB}",
+					"Varies",
+					"Varies"
+				],
+				[
+					"{@item Backpack|XPHB}",
+					"5 lb.",
+					"2 GP"
+				],
+				[
+					"{@item Ball Bearings|XPHB}",
+					"2 lb.",
+					"1 GP"
+				],
+				[
+					"{@item Barrel|XPHB}",
+					"70 lb.",
+					"2 GP"
+				],
+				[
+					"{@item Basket|XPHB}",
+					"2 lb.",
+					"4 SP"
+				],
+				[
+					"{@item Bedroll|XPHB}",
+					"7 lb.",
+					"1 GP"
+				],
+				[
+					"{@item Bell|XPHB}",
+					"—",
+					"1 GP"
+				],
+				[
+					"{@item Blanket|XPHB}",
+					"3 lb.",
+					"5 SP"
+				],
+				[
+					"{@item Block and Tackle|XPHB}",
+					"5 lb.",
+					"1 GP"
+				],
+				[
+					"{@item Book|XPHB}",
+					"5 lb.",
+					"25 GP"
+				],
+				[
+					"{@item Glass Bottle|XPHB|Bottle, Glass}",
+					"2 lb.",
+					"2 GP"
+				],
+				[
+					"{@item Bucket|XPHB}",
+					"2 lb.",
+					"5 CP"
+				],
+				[
+					"{@item Burglar's Pack|XPHB}",
+					"42 lb.",
+					"16 GP"
+				],
+				[
+					"{@item Caltrops|XPHB}",
+					"2 lb.",
+					"1 GP"
+				],
+				[
+					"{@item Candle|XPHB}",
+					"—",
+					"1 CP"
+				],
+				[
+					"{@item Crossbow Bolt Case|XPHB|Case, Crossbow Bolt}",
+					"1 lb.",
+					"1 GP"
+				],
+				[
+					"{@item Map or Scroll Case|XPHB|Case, Map or Scroll}",
+					"1 lb.",
+					"1 GP"
+				],
+				[
+					"{@item Chain|XPHB}",
+					"10 lb.",
+					"5 GP"
+				],
+				[
+					"{@item Chest|XPHB}",
+					"25 lb.",
+					"5 GP"
+				],
+				[
+					"{@item Climber's Kit|XPHB}",
+					"12 lb.",
+					"25 GP"
+				],
+				[
+					"{@item Fine Clothes|XPHB|Clothes, Fine}",
+					"6 lb.",
+					"15 GP"
+				],
+				[
+					"{@item Traveler's Clothes|XPHB|Clothes, Traveler's}",
+					"4 lb.",
+					"2 GP"
+				],
+				[
+					"{@item Component Pouch|XPHB}",
+					"2 lb.",
+					"25 GP"
+				],
+				[
+					"{@item Costume|XPHB}",
+					"4 lb.",
+					"5 GP"
+				],
+				[
+					"{@item Crowbar|XPHB}",
+					"5 lb.",
+					"2 GP"
+				],
+				[
+					"{@item Diplomat's Pack|XPHB}",
+					"39 lb.",
+					"39 GP"
+				],
+				[
+					"{@item Druidic Focus|XPHB}",
+					"Varies",
+					"Varies"
+				],
+				[
+					"{@item Dungeoneer's Pack|XPHB}",
+					"55 lb.",
+					"12 GP"
+				],
+				[
+					"{@item Entertainer's Pack|XPHB}",
+					"58½ lb.",
+					"40 GP"
+				],
+				[
+					"{@item Explorer's Pack|XPHB}",
+					"55 lb.",
+					"10 GP"
+				],
+				[
+					"{@item Flask|XPHB}",
+					"1 lb.",
+					"2 CP"
+				],
+				[
+					"{@item Grappling Hook|XPHB}",
+					"4 lb.",
+					"2 GP"
+				],
+				[
+					"{@item Healer's Kit|XPHB}",
+					"3 lb.",
+					"5 GP"
+				],
+				[
+					"{@item Holy Symbol|XPHB}",
+					"Varies",
+					"Varies"
+				],
+				[
+					"{@item Holy Water|XPHB}",
+					"1 lb.",
+					"25 GP"
+				],
+				[
+					"{@item Hunting Trap|XPHB}",
+					"25 lb.",
+					"5 GP"
+				],
+				[
+					"{@item Ink|XPHB}",
+					"—",
+					"10 GP"
+				],
+				[
+					"{@item Ink Pen|XPHB}",
+					"—",
+					"2 CP"
+				],
+				[
+					"{@item Jug|XPHB}",
+					"4 lb.",
+					"2 CP"
+				],
+				[
+					"{@item Ladder|XPHB}",
+					"25 lb.",
+					"1 SP"
+				],
+				[
+					"{@item Lamp|XPHB}",
+					"1 lb.",
+					"5 SP"
+				],
+				[
+					"{@item Bullseye Lantern|XPHB|Lantern, Bullseye}",
+					"2 lb.",
+					"10 GP"
+				],
+				[
+					"{@item Hooded Lantern|XPHB|Lantern, Hooded}",
+					"2 lb.",
+					"5 GP"
+				],
+				[
+					"{@item Lock|XPHB}",
+					"1 lb.",
+					"10 GP"
+				],
+				[
+					"{@item Magnifying Glass|XPHB}",
+					"—",
+					"100 GP"
+				],
+				[
+					"{@item Manacles|XPHB}",
+					"6 lb.",
+					"2 GP"
+				],
+				[
+					"{@item Map|XPHB}",
+					"—",
+					"1 GP"
+				],
+				[
+					"{@item Mirror|XPHB}",
+					"1/2 lb.",
+					"5 GP"
+				],
+				[
+					"{@item Net|XPHB}",
+					"3 lb.",
+					"1 GP"
+				],
+				[
+					"{@item Oil|XPHB}",
+					"1 lb.",
+					"1 SP"
+				],
+				[
+					"{@item Paper|XPHB}",
+					"—",
+					"2 SP"
+				],
+				[
+					"{@item Parchment|XPHB}",
+					"—",
+					"1 SP"
+				],
+				[
+					"{@item Perfume|XPHB}",
+					"—",
+					"5 GP"
+				],
+				[
+					"{@item Basic Poison|XPHB|Poison, Basic}",
+					"—",
+					"100 GP"
+				],
+				[
+					"{@item Pole|XPHB}",
+					"7 lb.",
+					"5 CP"
+				],
+				[
+					"{@item Iron Pot|XPHB|Pot, Iron}",
+					"10 lb.",
+					"2 GP"
+				],
+				[
+					"{@item Potion of Healing|XDMG}",
+					"1/2 lb.",
+					"50 GP"
+				],
+				[
+					"{@item Pouch|XPHB}",
+					"1 lb.",
+					"5 SP"
+				],
+				[
+					"{@item Priest's Pack|XPHB}",
+					"29 lb.",
+					"33 GP"
+				],
+				[
+					"{@item Quiver|XPHB}",
+					"1 lb.",
+					"1 GP"
+				],
+				[
+					"{@item Portable Ram|XPHB|Ram, Portable}",
+					"35 lb.",
+					"4 GP"
+				],
+				[
+					"{@item Rations|XPHB}",
+					"2 lb.",
+					"5 SP"
+				],
+				[
+					"{@item Robe|XPHB}",
+					"4 lb.",
+					"1 GP"
+				],
+				[
+					"{@item Rope|XPHB}",
+					"5 lb.",
+					"1 GP"
+				],
+				[
+					"{@item Sack|XPHB}",
+					"1/2 lb.",
+					"1 CP"
+				],
+				[
+					"{@item Scholar's Pack|XPHB}",
+					"22 lb.",
+					"40 GP"
+				],
+				[
+					"{@item Shovel|XPHB}",
+					"5 lb.",
+					"2 GP"
+				],
+				[
+					"{@item Signal Whistle|XPHB}",
+					"—",
+					"5 CP"
+				],
+				[
+					"Spell Scroll (Cantrip)",
+					"—",
+					"30 GP"
+				],
+				[
+					"Spell Scroll (Level 1)",
+					"—",
+					"50 GP"
+				],
+				[
+					"{@item Iron Spikes|XPHB|Spikes, Iron}",
+					"5 lb.",
+					"1 GP"
+				],
+				[
+					"{@item Spyglass|XPHB}",
+					"1 lb.",
+					"1,000 GP"
+				],
+				[
+					"{@item String|XPHB}",
+					"—",
+					"1 SP"
+				],
+				[
+					"{@item Tent|XPHB}",
+					"20 lb.",
+					"2 GP"
+				],
+				[
+					"{@item Tinderbox|XPHB}",
+					"1 lb.",
+					"5 SP"
+				],
+				[
+					"{@item Torch|XPHB}",
+					"1 lb.",
+					"1 CP"
+				],
+				[
+					"{@item Vial|XPHB}",
+					"—",
+					"1 GP"
+				],
+				[
+					"{@item Waterskin|XPHB}",
+					"5 lb. (full)",
+					"2 SP"
+				]
+			],
+			"name": "Adventuring Gear",
+			"page": 222,
+			"source": "XPHB",
+			"chapter": {
+				"name": "Equipment",
+				"ordinal": {
+					"type": "chapter",
+					"identifier": 6
+				},
+				"index": 6
+			}
+		},
+		{
+			"caption": "Ammunition",
+			"srd52": true,
+			"basicRules2024": true,
+			"colLabels": [
+				"Type",
+				"Amount",
+				"Storage",
+				"Weight",
+				"Cost"
+			],
+			"colStyles": [
+				"col-3",
+				"col-2 text-center",
+				"col-3",
+				"col-2 text-center",
+				"col-2 text-right"
+			],
+			"rows": [
+				[
+					"{@item Arrows (20)|XPHB|Arrows}",
+					"20",
+					"{@item Quiver|XPHB}",
+					"1 lb.",
+					"1 GP"
+				],
+				[
+					"{@item Bolts (20)|XPHB|Bolts}",
+					"20",
+					"{@item Crossbow Bolt Case|XPHB|Case}",
+					"1½ lb.",
+					"1 GP"
+				],
+				[
+					"{@item Firearm Bullets (10)|XPHB|Bullets, Firearm}",
+					"10",
+					"{@item Pouch|XPHB}",
+					"2 lb.",
+					"3 GP"
+				],
+				[
+					"{@item Sling Bullet|XPHB|Bullets, Sling}",
+					"20",
+					"{@item Pouch|XPHB}",
+					"1½ lb.",
+					"4 CP"
+				],
+				[
+					"{@item Needles (50)|XPHB|Needles}",
+					"50",
+					"{@item Pouch|XPHB}",
+					"1 lb.",
+					"1 GP"
+				]
+			],
+			"name": "Ammunition (Varies); Ammunition",
+			"page": 222,
+			"source": "XPHB",
+			"chapter": {
+				"name": "Equipment",
+				"ordinal": {
+					"type": "chapter",
+					"identifier": 6
+				},
+				"index": 6
+			}
+		},
+		{
+			"caption": "Arcane Focuses",
+			"srd52": true,
+			"basicRules2024": true,
+			"colLabels": [
+				"Focus",
+				"Weight",
+				"Cost"
+			],
+			"colStyles": [
+				"col-8",
+				"col-2 text-center",
+				"col-2 text-right"
+			],
+			"rows": [
+				[
+					"{@item Crystal|XPHB}",
+					"1 lb.",
+					"10 GP"
+				],
+				[
+					"{@item Orb|XPHB}",
+					"3 lb.",
+					"20 GP"
+				],
+				[
+					"{@item Rod|XPHB}",
+					"2 lb.",
+					"10 GP"
+				],
+				[
+					"{@item Staff|XPHB} (also a {@item Quarterstaff|XPHB})",
+					"4 lb.",
+					"5 GP"
+				],
+				[
+					"{@item Wand|XPHB}",
+					"1 lb.",
+					"10 GP"
+				]
+			],
+			"name": "Arcane Focus (Varies); Arcane Focuses",
+			"page": 224,
+			"source": "XPHB",
+			"chapter": {
+				"name": "Equipment",
+				"ordinal": {
+					"type": "chapter",
+					"identifier": 6
+				},
+				"index": 6
+			}
+		},
+		{
+			"caption": "Druidic Focuses",
+			"srd52": true,
+			"basicRules2024": true,
+			"colLabels": [
+				"Focus",
+				"Weight",
+				"Cost"
+			],
+			"colStyles": [
+				"col-8",
+				"col-2 text-center",
+				"col-2 text-right"
+			],
+			"rows": [
+				[
+					"{@item Sprig of mistletoe|XPHB}",
+					"—",
+					"1 GP"
+				],
+				[
+					"{@item Wooden staff|XPHB} (also a {@item Quarterstaff|XPHB})",
+					"4 lb.",
+					"5 GP"
+				],
+				[
+					"{@item Yew wand|XPHB}",
+					"1 lb.",
+					"10 GP"
+				]
+			],
+			"name": "Druidic Focus (Varies); Druidic Focuses",
+			"page": 225,
+			"source": "XPHB",
+			"chapter": {
+				"name": "Equipment",
+				"ordinal": {
+					"type": "chapter",
+					"identifier": 6
+				},
+				"index": 6
+			}
+		},
+		{
+			"caption": "Holy Symbols",
+			"srd52": true,
+			"basicRules2024": true,
+			"colLabels": [
+				"Symbol",
+				"Weight",
+				"Cost"
+			],
+			"colStyles": [
+				"col-8",
+				"col-2 text-center",
+				"col-2 text-right"
+			],
+			"rows": [
+				[
+					"{@item Amulet|XPHB} (worn or held)",
+					"1 lb.",
+					"5 GP"
+				],
+				[
+					"{@item Emblem|XPHB} (borne on fabric or a Shield)",
+					"—",
+					"5 GP"
+				],
+				[
+					"{@item Reliquary|XPHB} (held)",
+					"2 lb.",
+					"5 GP"
+				]
+			],
+			"name": "Holy Symbol (Varies); Holy Symbols",
+			"page": 226,
+			"source": "XPHB",
+			"chapter": {
+				"name": "Equipment",
+				"ordinal": {
+					"type": "chapter",
+					"identifier": 6
+				},
+				"index": 6
+			}
+		},
+		{
+			"caption": "Mounts and Other Animals",
+			"srd52": true,
+			"basicRules2024": true,
+			"colLabels": [
+				"Item",
+				"Carrying Capacity",
+				"Cost"
+			],
+			"colStyles": [
+				"col-8",
+				"col-2 text-center",
+				"col-2 text-right"
+			],
+			"rows": [
+				[
+					"{@item Camel|XPHB}",
+					"450 lb.",
+					"50 GP"
+				],
+				[
+					"{@item Elephant|XPHB}",
+					"1,320 lb.",
+					"200 GP"
+				],
+				[
+					"{@item Draft Horse|XPHB|Horse, Draft}",
+					"540 lb.",
+					"50 GP"
+				],
+				[
+					"{@item Riding Horse|XPHB|Horse, Riding}",
+					"480 lb.",
+					"75 GP"
+				],
+				[
+					"{@item Mastiff|XPHB}",
+					"195 lb.",
+					"25 GP"
+				],
+				[
+					"{@item Mule|XPHB}",
+					"420 lb.",
+					"8 GP"
+				],
+				[
+					"{@item Pony|XPHB}",
+					"225 lb.",
+					"30 GP"
+				],
+				[
+					"{@item Warhorse|XPHB}",
+					"540 lb.",
+					"400 GP"
+				]
+			],
+			"name": "Mounts and Vehicles; Mounts and Other Animals",
+			"page": 229,
+			"source": "XPHB",
+			"chapter": {
+				"name": "Equipment",
+				"ordinal": {
+					"type": "chapter",
+					"identifier": 6
+				},
+				"index": 6
+			}
+		},
+		{
+			"caption": "Tack, Harness, and Drawn Vehicles",
+			"srd52": true,
+			"basicRules2024": true,
+			"colLabels": [
+				"Item",
+				"Weight",
+				"Cost"
+			],
+			"colStyles": [
+				"col-8",
+				"col-2 text-center",
+				"col-2 text-right"
+			],
+			"rows": [
+				{
+					"type": "row",
+					"style": "row-indent-first",
+					"row": [
+						"{@item Carriage|XPHB}",
+						"600 lb.",
+						"100 GP"
+					]
+				},
+				{
+					"type": "row",
+					"style": "row-indent-first",
+					"row": [
+						"{@item Cart|XPHB}",
+						"200 lb.",
+						"15 GP"
+					]
+				},
+				{
+					"type": "row",
+					"style": "row-indent-first",
+					"row": [
+						"{@item Chariot|XPHB}",
+						"100 lb.",
+						"250 GP"
+					]
+				},
+				{
+					"type": "row",
+					"style": "row-indent-first",
+					"row": [
+						"{@item Feed (per day)|XPHB|Feed per day}",
+						"10 lb.",
+						"5 CP"
+					]
+				},
+				[
+					{
+						"type": "cell",
+						"width": 3,
+						"entry": "{@i Saddle}"
+					}
+				],
+				{
+					"type": "row",
+					"style": "row-indent-first",
+					"row": [
+						"{@item Exotic Saddle|XPHB|Exotic}",
+						"40 lb.",
+						"60 GP"
+					]
+				},
+				{
+					"type": "row",
+					"style": "row-indent-first",
+					"row": [
+						"{@item Military Saddle|XPHB|Military}",
+						"30 lb.",
+						"20 GP"
+					]
+				},
+				{
+					"type": "row",
+					"style": "row-indent-first",
+					"row": [
+						"{@item Riding Saddle|XPHB|Riding}",
+						"25 lb.",
+						"10 GP"
+					]
+				},
+				{
+					"type": "row",
+					"style": "row-indent-first",
+					"row": [
+						"{@item Sled|XPHB}",
+						"300 lb.",
+						"20 GP"
+					]
+				},
+				{
+					"type": "row",
+					"style": "row-indent-first",
+					"row": [
+						"Stabling per day",
+						"—",
+						"5 SP"
+					]
+				},
+				{
+					"type": "row",
+					"style": "row-indent-first",
+					"row": [
+						"{@item Wagon|XPHB}",
+						"400 lb.",
+						"35 GP"
+					]
+				}
+			],
+			"name": "Mounts and Vehicles; Tack, Harness, and Drawn Vehicles",
+			"page": 229,
+			"source": "XPHB",
+			"chapter": {
+				"name": "Equipment",
+				"ordinal": {
+					"type": "chapter",
+					"identifier": 6
+				},
+				"index": 6
+			}
+		},
+		{
+			"caption": "Airborne and Waterborne Vehicles",
+			"srd52": true,
+			"basicRules2024": true,
+			"colLabels": [
+				"Ship",
+				"Speed",
+				"Crew",
+				"Passengers",
+				"Cargo (Tons)",
+				"AC",
+				"HP",
+				"Damage Threshold",
+				"Cost"
+			],
+			"colStyles": [
+				"col-1-6",
+				"col-1-3 text-center",
+				"col-1-3 text-center",
+				"col-1-3 text-center",
+				"col-1-3 text-center",
+				"col-1-3 text-center",
+				"col-1-3 text-center",
+				"col-1-3 text-center",
+				"col-1-3 text-right"
+			],
+			"rows": [
+				[
+					"{@item Airship|XPHB}",
+					"8 mph",
+					"10",
+					"20",
+					"1",
+					"13",
+					"300",
+					"—",
+					"40,000 GP"
+				],
+				[
+					"{@item Galley|XPHB}",
+					"4 mph",
+					"80",
+					"—",
+					"150",
+					"15",
+					"500",
+					"20",
+					"30,000 GP"
+				],
+				[
+					"{@item Keelboat|XPHB}",
+					"1 mph",
+					"1",
+					"6",
+					"1/2",
+					"15",
+					"100",
+					"10",
+					"3,000 GP"
+				],
+				[
+					"{@item Longship|XPHB}",
+					"3 mph",
+					"40",
+					"150",
+					"10",
+					"15",
+					"300",
+					"15",
+					"10,000 GP"
+				],
+				[
+					"{@item Rowboat|XPHB}",
+					"1½ mph",
+					"1",
+					"3",
+					"—",
+					"11",
+					"50",
+					"—",
+					"50 GP"
+				],
+				[
+					"{@item Sailing Ship|XPHB}",
+					"2 mph",
+					"20",
+					"20",
+					"100",
+					"15",
+					"300",
+					"15",
+					"10,000 GP"
+				],
+				[
+					"{@item Warship|XPHB}",
+					"2½ mph",
+					"60",
+					"60",
+					"200",
+					"15",
+					"500",
+					"20",
+					"25,000 GP"
+				]
+			],
+			"name": "Large Vehicles; Airborne and Waterborne Vehicles",
+			"page": 230,
+			"source": "XPHB",
+			"chapter": {
+				"name": "Equipment",
+				"ordinal": {
+					"type": "chapter",
+					"identifier": 6
+				},
+				"index": 6
+			}
+		},
+		{
+			"caption": "Food, Drink, and Lodging",
+			"srd52": true,
+			"basicRules2024": true,
+			"colLabels": [
+				"Item",
+				"Cost"
+			],
+			"colStyles": [
+				"col-8",
+				"col-2 text-right"
+			],
+			"rows": [
+				{
+					"type": "row",
+					"style": "row-indent-first",
+					"row": [
+						"{@item Ale (mug)|XPHB}",
+						"4 CP"
+					]
+				},
+				{
+					"type": "row",
+					"style": "row-indent-first",
+					"row": [
+						"{@item Bread (loaf)|XPHB}",
+						"2 CP"
+					]
+				},
+				{
+					"type": "row",
+					"style": "row-indent-first",
+					"row": [
+						"{@item Cheese (wedge)|XPHB}",
+						"1 SP"
+					]
+				},
+				[
+					{
+						"type": "cell",
+						"width": 2,
+						"entry": "{@i Inn Stay per Day}"
+					}
+				],
+				{
+					"type": "row",
+					"style": "row-indent-first",
+					"row": [
+						"Squalid",
+						"7 CP"
+					]
+				},
+				{
+					"type": "row",
+					"style": "row-indent-first",
+					"row": [
+						"Poor",
+						"1 SP"
+					]
+				},
+				{
+					"type": "row",
+					"style": "row-indent-first",
+					"row": [
+						"Modest",
+						"5 SP"
+					]
+				},
+				{
+					"type": "row",
+					"style": "row-indent-first",
+					"row": [
+						"Comfortable",
+						"8 SP"
+					]
+				},
+				{
+					"type": "row",
+					"style": "row-indent-first",
+					"row": [
+						"Wealthy",
+						"2 GP"
+					]
+				},
+				{
+					"type": "row",
+					"style": "row-indent-first",
+					"row": [
+						"Aristocratic",
+						"4 GP"
+					]
+				},
+				[
+					{
+						"type": "cell",
+						"width": 2,
+						"entry": "{@i Meal}"
+					}
+				],
+				{
+					"type": "row",
+					"style": "row-indent-first",
+					"row": [
+						"Squalid",
+						"1 CP"
+					]
+				},
+				{
+					"type": "row",
+					"style": "row-indent-first",
+					"row": [
+						"Poor",
+						"2 CP"
+					]
+				},
+				{
+					"type": "row",
+					"style": "row-indent-first",
+					"row": [
+						"Modest",
+						"1 SP"
+					]
+				},
+				{
+					"type": "row",
+					"style": "row-indent-first",
+					"row": [
+						"Comfortable",
+						"2 SP"
+					]
+				},
+				{
+					"type": "row",
+					"style": "row-indent-first",
+					"row": [
+						"Wealthy",
+						"3 SP"
+					]
+				},
+				{
+					"type": "row",
+					"style": "row-indent-first",
+					"row": [
+						"Aristocratic",
+						"6 SP"
+					]
+				},
+				[
+					{
+						"type": "cell",
+						"width": 2,
+						"entry": "{@i Wine (bottle)}"
+					}
+				],
+				{
+					"type": "row",
+					"style": "row-indent-first",
+					"row": [
+						"{@item Common Wine (bottle)|XPHB|Common}",
+						"2 SP"
+					]
+				},
+				{
+					"type": "row",
+					"style": "row-indent-first",
+					"row": [
+						"{@item Fine Wine (bottle)|XPHB|Fine}",
+						"10 GP"
+					]
+				}
+			],
+			"name": "Food, Drink, and Lodging",
+			"page": 231,
+			"source": "XPHB",
+			"chapter": {
+				"name": "Equipment",
+				"ordinal": {
+					"type": "chapter",
+					"identifier": 6
+				},
+				"index": 6
+			}
+		},
+		{
+			"caption": "Hirelings",
+			"srd52": true,
+			"basicRules2024": true,
+			"colLabels": [
+				"Service",
+				"Cost"
+			],
+			"colStyles": [
+				"col-8",
+				"col-4"
+			],
+			"rows": [
+				[
+					"Skilled hireling",
+					"2 GP per day"
+				],
+				[
+					"Untrained hireling",
+					"2 SP per day"
+				],
+				[
+					"Messenger",
+					"2 CP per mile"
+				]
+			],
+			"name": "Hirelings",
+			"page": 232,
+			"source": "XPHB",
+			"chapter": {
+				"name": "Equipment",
+				"ordinal": {
+					"type": "chapter",
+					"identifier": 6
+				},
+				"index": 6
+			}
+		},
+		{
+			"caption": "Spellcasting Services",
+			"srd52": true,
+			"basicRules2024": true,
+			"colLabels": [
+				"Spell Level",
+				"Availability",
+				"Cost"
+			],
+			"colStyles": [
+				"col-2 text-center",
+				"col-6",
+				"col-2 text-right"
+			],
+			"rows": [
+				[
+					"{@filter Cantrip|spells|level=0}",
+					"Village, town, or city",
+					"30 GP"
+				],
+				[
+					"{@filter 1|spells|level=1}",
+					"Village, town, or city",
+					"50 GP"
+				],
+				[
+					"{@filter 2|spells|level=2}",
+					"Village, town, or city",
+					"200 GP"
+				],
+				[
+					"{@filter 3|spells|level=3}",
+					"Town or city only",
+					"300 GP"
+				],
+				[
+					"{@filter 4–5|spells|level=4;5}",
+					"Town or city only",
+					"2,000 GP"
+				],
+				[
+					"{@filter 6–8|spells|level=6;8}",
+					"City only",
+					"20,000 GP"
+				],
+				[
+					"{@filter 9|spells|level=9}",
+					"City only",
+					"100,000 GP"
+				]
+			],
+			"name": "Spellcasting Services",
+			"page": 232,
+			"source": "XPHB",
+			"chapter": {
+				"name": "Equipment",
+				"ordinal": {
+					"type": "chapter",
+					"identifier": 6
+				},
+				"index": 6
+			}
+		},
+		{
+			"caption": "Spell Scroll Costs",
+			"srd52": true,
+			"basicRules2024": true,
+			"colLabels": [
+				"Spell Level",
+				"Time",
+				"Cost"
+			],
+			"colStyles": [
+				"col-4 text-center",
+				"col-4 text-center",
+				"col-4 text-right"
+			],
+			"rows": [
+				[
+					"{@filter Cantrip|spells|level=0}",
+					"1 day",
+					"15 GP"
+				],
+				[
+					"{@filter 1|spells|level=1}",
+					"1 day",
+					"25 GP"
+				],
+				[
+					"{@filter 2|spells|level=2}",
+					"3 days",
+					"100 GP"
+				],
+				[
+					"{@filter 3|spells|level=3}",
+					"5 days",
+					"150 GP"
+				],
+				[
+					"{@filter 4|spells|level=4}",
+					"10 days",
+					"1,000 GP"
+				],
+				[
+					"{@filter 5|spells|level=5}",
+					"25 days",
+					"1,500 GP"
+				],
+				[
+					"{@filter 6|spells|level=6}",
+					"40 days",
+					"10,000 GP"
+				],
+				[
+					"{@filter 7|spells|level=7}",
+					"50 days",
+					"12,500 GP"
+				],
+				[
+					"{@filter 8|spells|level=8}",
+					"60 days",
+					"15,000 GP"
+				],
+				[
+					"{@filter 9|spells|level=9}",
+					"120 days",
+					"50,000 GP"
+				]
+			],
+			"name": "Scribing Spell Scrolls; Spell Scroll Costs",
+			"page": 233,
+			"source": "XPHB",
+			"chapter": {
+				"name": "Equipment",
+				"ordinal": {
+					"type": "chapter",
+					"identifier": 6
+				},
+				"index": 6
+			}
+		},
+		{
+			"caption": "Spell Preparation by Class",
+			"srd52": true,
+			"basicRules2024": true,
+			"colLabels": [
+				"Class",
+				"Change When You...",
+				"Number of Spells"
+			],
+			"colStyles": [
+				"col-2",
+				"col-8",
+				"col-2 text-center"
+			],
+			"rows": [
+				[
+					"{@class Bard|XPHB}",
+					"Gain a level",
+					"One"
+				],
+				[
+					"{@class Cleric|XPHB}",
+					"Finish a Long Rest",
+					"Any"
+				],
+				[
+					"{@class Druid|XPHB}",
+					"Finish a Long Rest",
+					"Any"
+				],
+				[
+					"{@class Paladin|XPHB}",
+					"Finish a Long Rest",
+					"One"
+				],
+				[
+					"{@class Ranger|XPHB}",
+					"Finish a Long Rest",
+					"One"
+				],
+				[
+					"{@class Sorcerer|XPHB}",
+					"Gain a level",
+					"One"
+				],
+				[
+					"{@class Warlock|XPHB}",
+					"Gain a level",
+					"One"
+				],
+				[
+					"{@class Wizard|XPHB}",
+					"Finish a Long Rest",
+					"Any"
+				]
+			],
+			"name": "Preparing Spells; Spell Preparation by Class",
+			"page": 235,
+			"source": "XPHB",
+			"chapter": {
+				"name": "Spells",
+				"ordinal": {
+					"type": "chapter",
+					"identifier": 7
+				},
+				"index": 7
+			}
+		},
+		{
+			"caption": "Schools of Magic",
+			"srd52": true,
+			"basicRules2024": true,
+			"colLabels": [
+				"School",
+				"Typical Effects"
+			],
+			"colStyles": [
+				"col-4",
+				"col-8"
+			],
+			"rows": [
+				[
+					"Abjuration",
+					"Prevents or reverses harmful effects"
+				],
+				[
+					"Conjuration",
+					"Transports creatures or objects"
+				],
+				[
+					"Divination",
+					"Reveals information"
+				],
+				[
+					"Enchantment",
+					"Influences minds"
+				],
+				[
+					"Evocation",
+					"Channels energy to create effects that are often destructive"
+				],
+				[
+					"Illusion",
+					"Deceives the mind or senses"
+				],
+				[
+					"Necromancy",
+					"Manipulates life and death"
+				],
+				[
+					"Transmutation",
+					"Transforms creatures or objects"
+				]
+			],
+			"name": "School of Magic; Schools of Magic",
+			"page": 236,
+			"source": "XPHB",
+			"chapter": {
+				"name": "Spells",
+				"ordinal": {
+					"type": "chapter",
+					"identifier": 7
+				},
+				"index": 7
+			}
+		},
+		{
+			"caption": "Abilities, Ability Checks, and Saving Throws",
+			"srd52": true,
+			"basicRules2024": true,
+			"colLabels": [
+				"Ability",
+				"Score Measures...",
+				"Make an Ability Check To...",
+				"Make a Saving Throw To..."
+			],
+			"colStyles": [
+				"col-2-1",
+				"col-3-3",
+				"col-3-3",
+				"col-3-3"
+			],
+			"rows": [
+				[
+					"Strength",
+					"Physical might",
+					"Lift, push, pull, or break something",
+					"Physically resist direct force"
+				],
+				[
+					"Dexterity",
+					"Agility, reflexes, balance",
+					"Move nimbly, quickly, or quietly",
+					"Dodge out of harm's way"
+				],
+				[
+					"Constitution",
+					"Health and stamina",
+					"Push your body beyond normal limits",
+					"Endure a toxic hazard"
+				],
+				[
+					"Intelligence",
+					"Reasoning and memory",
+					"Reason or remember",
+					"Recognize an illusion as fake"
+				],
+				[
+					"Wisdom",
+					"Perceptiveness and mental fortitude",
+					"Notice things in the environment or in creatures' behavior",
+					"Resist a mental assault"
+				],
+				[
+					"Charisma",
+					"Confidence, poise, and charm",
+					"Influence, entertain, or deceive",
+					"Assert your identity"
+				]
+			],
+			"name": "Resolving Outcomes; Abilities, Ability Checks, and Saving Throws",
+			"page": 27,
+			"source": "XDMG",
+			"chapter": {
+				"name": "Running the Game",
+				"ordinal": {
+					"type": "chapter",
+					"identifier": 2
+				},
+				"index": 1
+			}
+		},
+		{
+			"caption": "Typical DCs",
+			"srd52": true,
+			"basicRules2024": true,
+			"colLabels": [
+				"Task",
+				"DC"
+			],
+			"colStyles": [
+				"col-10",
+				"col-2 text-center"
+			],
+			"rows": [
+				[
+					"Very easy",
+					"5"
+				],
+				[
+					"Easy",
+					"10"
+				],
+				[
+					"Moderate",
+					"15"
+				],
+				[
+					"Hard",
+					"20"
+				],
+				[
+					"Very hard",
+					"25"
+				],
+				[
+					"Nearly impossible",
+					"30"
+				]
+			],
+			"name": "Difficulty Class; Typical DCs",
+			"page": 29,
+			"source": "XDMG",
+			"chapter": {
+				"name": "Running the Game",
+				"ordinal": {
+					"type": "chapter",
+					"identifier": 2
+				},
+				"index": 1
+			}
+		},
+		{
+			"caption": "Travel Terrain",
+			"srd52": true,
+			"basicRules2024": true,
+			"colLabels": [
+				"Terrain",
+				"Maximum Pace",
+				"Encounter Distance",
+				"Foraging DC",
+				"Navigation DC",
+				"Search DC"
+			],
+			"colStyles": [
+				"col-2",
+				"col-2",
+				"col-2 text-center",
+				"col-2 text-center",
+				"col-2 text-center",
+				"col-2 text-center"
+			],
+			"rows": [
+				[
+					"Arctic",
+					"Fast*",
+					"{@dice 6d6 × 10} feet",
+					"20",
+					"10",
+					"10"
+				],
+				[
+					"Coastal",
+					"Normal",
+					"{@dice 2d10 × 10} feet",
+					"10",
+					"5",
+					"15"
+				],
+				[
+					"Desert",
+					"Normal",
+					"{@dice 6d6 × 10} feet",
+					"20",
+					"10",
+					"10"
+				],
+				[
+					"Forest",
+					"Normal",
+					"{@dice 2d8 × 10} feet",
+					"10",
+					"15",
+					"15"
+				],
+				[
+					"Grassland",
+					"Fast",
+					"{@dice 6d6 × 10} feet",
+					"15",
+					"5",
+					"15"
+				],
+				[
+					"Hill",
+					"Normal",
+					"{@dice 2d10 × 10} feet",
+					"15",
+					"10",
+					"15"
+				],
+				[
+					"Mountain",
+					"Slow",
+					"{@dice 4d10 × 10} feet",
+					"20",
+					"15",
+					"20"
+				],
+				[
+					"Swamp",
+					"Slow",
+					"{@dice 2d8 × 10} feet",
+					"10",
+					"15",
+					"20"
+				],
+				[
+					"Underdark",
+					"Normal",
+					"{@dice 2d6 × 10} feet",
+					"20",
+					"10",
+					"20"
+				],
+				[
+					"Urban",
+					"Normal",
+					"{@dice 2d6 × 10} feet",
+					"20",
+					"15",
+					"15"
+				],
+				[
+					"Waterborne",
+					"Special†",
+					"{@dice 6d6 × 10} feet",
+					"15",
+					"10",
+					"15"
+				]
+			],
+			"footnotes": [
+				"*Appropriate equipment (such as skis) is necessary to keep up a Fast pace in Arctic terrain.",
+				"†Characters' rate of travel while waterborne depends on the vehicle carrying them; see \"Vehicles.\""
+			],
+			"name": "Travel Terrain",
+			"page": 39,
+			"source": "XDMG",
+			"chapter": {
+				"name": "Running the Game",
+				"ordinal": {
+					"type": "chapter",
+					"identifier": 2
+				},
+				"index": 1
+			}
+		},
+		{
+			"caption": "Creature Size and Space",
+			"srd52": true,
+			"basicRules2024": true,
+			"colLabels": [
+				"Size",
+				"Space in Squares",
+				"Space in Hexes"
+			],
+			"colStyles": [
+				"col-2",
+				"col-5",
+				"col-5"
+			],
+			"rows": [
+				[
+					"Tiny",
+					"4 per square",
+					"4 per hex"
+				],
+				[
+					"Small",
+					"1 square",
+					"1 hex"
+				],
+				[
+					"Medium",
+					"1 square",
+					"1 hex"
+				],
+				[
+					"Large",
+					"4 squares (2 by 2)",
+					"3 hexes"
+				],
+				[
+					"Huge",
+					"9 squares (3 by 3)",
+					"7 hexes"
+				],
+				[
+					"Gargantuan",
+					"16 squares (4 by 4) or more",
+					"12 hexes or more"
+				]
+			],
+			"name": "Creature Size and Space",
+			"page": 44,
+			"source": "XDMG",
+			"chapter": {
+				"name": "Running the Game",
+				"ordinal": {
+					"type": "chapter",
+					"identifier": 2
+				},
+				"index": 1
+			}
+		},
+		{
+			"caption": "Hit Dice by Size",
+			"srd52": true,
+			"basicRules2024": true,
+			"colLabels": [
+				"Monster Size",
+				"Hit Die",
+				"Average HP per Die"
+			],
+			"colStyles": [
+				"col-4 text-center",
+				"col-4 text-center",
+				"col-4 text-center"
+			],
+			"rows": [
+				[
+					"Tiny",
+					"{@dice d4}",
+					"2½"
+				],
+				[
+					"Small",
+					"{@dice d6}",
+					"3½"
+				],
+				[
+					"Medium",
+					"{@dice d8}",
+					"4½"
+				],
+				[
+					"Large",
+					"{@dice d10}",
+					"5½"
+				],
+				[
+					"Huge",
+					"{@dice d12}",
+					"6½"
+				],
+				[
+					"Gargantuan",
+					"{@dice d20}",
+					"10½"
+				]
+			],
+			"name": "Parts of a Stat Block; Hit Dice by Size",
+			"page": 6,
+			"source": "XMM",
+			"chapter": {
+				"name": "Introduction",
+				"index": 0
+			}
+		},
+		{
+			"caption": "Experience Points by Challenge Rating",
+			"srd52": true,
+			"basicRules2024": true,
+			"colLabels": [
+				"CR",
+				"XP"
+			],
+			"colStyles": [
+				"col-6 text-center",
+				"col-6 text-center"
+			],
+			"rows": [
+				[
+					"0",
+					"0 or 10"
+				],
+				[
+					"1/8",
+					"25"
+				],
+				[
+					"1/4",
+					"50"
+				],
+				[
+					"1/2",
+					"100"
+				],
+				[
+					"1",
+					"200"
+				],
+				[
+					"2",
+					"450"
+				],
+				[
+					"3",
+					"700"
+				],
+				[
+					"4",
+					"1,100"
+				],
+				[
+					"5",
+					"1,800"
+				],
+				[
+					"6",
+					"2,300"
+				],
+				[
+					"7",
+					"2,900"
+				],
+				[
+					"8",
+					"3,900"
+				],
+				[
+					"9",
+					"5,000"
+				],
+				[
+					"10",
+					"5,900"
+				],
+				[
+					"11",
+					"7,200"
+				],
+				[
+					"12",
+					"8,400"
+				],
+				[
+					"13",
+					"10,000"
+				],
+				[
+					"14",
+					"11,500"
+				],
+				[
+					"15",
+					"13,000"
+				],
+				[
+					"16",
+					"15,000"
+				],
+				[
+					"17",
+					"18,000"
+				],
+				[
+					"18",
+					"20,000"
+				],
+				[
+					"19",
+					"22,000"
+				],
+				[
+					"20",
+					"25,000"
+				],
+				[
+					"21",
+					"33,000"
+				],
+				[
+					"22",
+					"41,000"
+				],
+				[
+					"23",
+					"50,000"
+				],
+				[
+					"24",
+					"62,000"
+				],
+				[
+					"25",
+					"75,000"
+				],
+				[
+					"26",
+					"90,000"
+				],
+				[
+					"27",
+					"105,000"
+				],
+				[
+					"28",
+					"120,000"
+				],
+				[
+					"29",
+					"135,000"
+				],
+				[
+					"30",
+					"155,000"
+				]
+			],
+			"name": "Experience Points by Challenge Rating",
+			"page": 8,
+			"source": "XMM",
+			"chapter": {
+				"name": "Introduction",
+				"index": 0
+			}
+		},
+		{
+			"caption": "Proficiency Bonus by Challenge Rating",
+			"srd52": true,
+			"basicRules2024": true,
+			"colLabels": [
+				"CR",
+				"PB"
+			],
+			"colStyles": [
+				"col-6 text-center",
+				"col-6 text-center"
+			],
+			"rows": [
+				[
+					"0–4",
+					"+2"
+				],
+				[
+					"5–8",
+					"+3"
+				],
+				[
+					"9–12",
+					"+4"
+				],
+				[
+					"13–16",
+					"+5"
+				],
+				[
+					"17–20",
+					"+6"
+				],
+				[
+					"21–24",
+					"+7"
+				],
+				[
+					"25–28",
+					"+8"
+				],
+				[
+					"29–30",
+					"+9"
+				]
+			],
+			"name": "Proficiency Bonus by Challenge Rating",
+			"page": 8,
+			"source": "XMM",
+			"chapter": {
+				"name": "Introduction",
+				"index": 0
+			}
+		}
+	],
+	"tableGroup": []
+}

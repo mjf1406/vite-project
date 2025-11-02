@@ -6,6 +6,9 @@ import { i } from "@instantdb/react";
 
 const _schema = i.schema({
     entities: {
+        // ----------------------
+        //      Admin Tables
+        // ----------------------
         $files: i.entity({
             path: i.string().unique().indexed(),
             url: i.string(),
@@ -15,11 +18,6 @@ const _schema = i.schema({
             imageURL: i.string().optional(),
             type: i.string().optional(),
         }),
-        todos: i.entity({
-            text: i.string(),
-            done: i.boolean(),
-            createdAt: i.number(),
-        }),
         profiles: i.entity({
             joined: i.date(),
             plan: i.string(),
@@ -27,48 +25,33 @@ const _schema = i.schema({
             lastName: i.string(),
             googlePicture: i.string().optional(),
         }),
-        didjyahs: i.entity({
-            name: i.string(),
-            type: i.string().optional(),
-            icon: i.string().optional(),
-            color: i.string().optional(),
-            iconColor: i.string().optional(),
-            description: i.string().optional(),
-            unit: i.string().optional(),
-            quantity: i.number().optional(),
-            dailyGoal: i.number().optional(),
-            timer: i.number().optional(),
-            stopwatch: i.boolean().optional(),
-            sinceLast: i.boolean().optional(),
-            inputs: i.json().optional(),
-            createdDate: i.number().optional(),
-            updatedDate: i.number().optional(),
-            // userId: i.string().indexed(), // This is abstracted in the didjyahsOwners link and is called 'owner'
+        // ----------------------
+        //      Data Tables
+        // ----------------------
+        _5e_classes: i.entity({
+            // Primary identifiers
+            className: i.string().indexed(), // e.g., "Barbarian", "Wizard"
+            primarySource: i.string().indexed(), // e.g., "XPHB", "PHB"
+            classData: i.json(),
+            classFeatures: i.json().optional(), // Array of class features
+            subclasses: i.json().optional(), // Array of subclasses
+            subclassFeatures: i.json().optional(), // Array of subclass features
+            fullData: i.json(),
         }),
-        didjyahRecords: i.entity({
-            inputs: i.json().optional(),
-            // test: i.string().optional(), // I think we can get rid of this
-            createdDate: i.number().optional(),
-            updatedDate: i.number().optional(),
-            endDate: i.number().optional(),
-            // didjyahId: i.string().indexed(), // This is abstracted in the didjyahRecordsDidjyahs link and is called 'didjyah'
-            // userid: i.string(), // This is abstracted in the didjyahRecordsOwners link and is called 'owner'
+
+        // ----------------------
+        //      User Tables
+        // ----------------------
+        todos: i.entity({
+            text: i.string(),
+            done: i.boolean(),
+            createdAt: i.number(),
         }),
     },
     links: {
-        todosOwners: {
-            forward: {
-                on: "todos",
-                has: "one",
-                label: "owner",
-                onDelete: "cascade",
-            },
-            reverse: {
-                on: "$users",
-                has: "many",
-                label: "ownerTodos",
-            },
-        },
+        // ----------------------
+        //      Admin Tables
+        // ----------------------
         $usersLinkedPrimaryUser: {
             forward: {
                 on: "$users",
@@ -94,9 +77,12 @@ const _schema = i.schema({
                 label: "profile",
             },
         },
-        didjyahsOwners: {
+        // ----------------------
+        //      User Tables
+        // ----------------------
+        todosOwners: {
             forward: {
-                on: "didjyahs",
+                on: "todos",
                 has: "one",
                 label: "owner",
                 onDelete: "cascade",
@@ -104,33 +90,7 @@ const _schema = i.schema({
             reverse: {
                 on: "$users",
                 has: "many",
-                label: "didjyahs",
-            },
-        },
-        didjyahRecordsDidjyahs: {
-            forward: {
-                on: "didjyahRecords",
-                has: "one",
-                label: "didjyah",
-                onDelete: "cascade",
-            },
-            reverse: {
-                on: "didjyahs",
-                has: "many",
-                label: "records",
-            },
-        },
-        didjyahRecordsOwners: {
-            forward: {
-                on: "didjyahRecords",
-                has: "one",
-                label: "owner",
-                onDelete: "cascade",
-            },
-            reverse: {
-                on: "$users",
-                has: "many",
-                label: "didjyahRecords",
+                label: "ownerTodos",
             },
         },
     },
